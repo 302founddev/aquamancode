@@ -9,7 +9,7 @@ export const Home = () => {
             <section className='section'>
                 <h1>Hey, I am jarscode 
                 <a
-                    className='badge'
+                    className='fs-6'
                     href='https://www.linkedin.com/in/jarscodedev/' 
                     >
                     <Badge> Available for hire</Badge>

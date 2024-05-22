@@ -4,16 +4,17 @@
 
 .header > nav > a, .header > a {
     text-decoration: none;
+    color: white;
 }
 
 .header {
-    padding: 200px; 
+    width: 1080px;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 15px;
-
 }
 
 .header nav {
@@ -22,4 +23,3 @@
     gap: 2.5rem;
     opacity: 0.8;
 }
-
