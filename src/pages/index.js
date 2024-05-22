@@ -1,7 +1,7 @@
 import './index.css';
 import Badge from 'react-bootstrap/Badge';
 import { IconGithub } from '../icons/GitHub';
-import { IconLinkedin } from '../icons/Linkedin';
+import { IconLinkedin } from '../icons/LinkedIn';
 
 
 export const Home = () => {
@@ -14,12 +14,9 @@ export const Home = () => {
             <section className='section'>
                 <div>
                     <h1>Hey, I am JarsCode 
-                    <a
-                        className='fs-6'
-                        href={linkedin} 
-                        >
-                        <Badge> Available for hire</Badge>
-                    </a>
+                        <a className='fs-6' href={linkedin}>
+                            <Badge> Available for hire</Badge>
+                        </a>
                     </h1>
                     <p>
                         +15 years experience.
@@ -28,14 +25,12 @@ export const Home = () => {
                     </p>
                 </div>
 
-                <ul>
+                <ul className='icons'>
                     <li>
-                        <a href={linkedin}><IconLinkedin /></a>
+                        <a href={linkedin}><IconLinkedin className='icon' /></a>
                     </li>
                     <li>
-                        <a href={github}>
-                        <IconGithub />
-                        </a>
+                        <a href={github}><IconGithub className='icon' /></a>
                     </li>
                 </ul>
             </section>

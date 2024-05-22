@@ -32,3 +32,17 @@
     color: rgb(254 240 138);
 }
 
+.icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    max-width: 36rem;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style: none;
+}
