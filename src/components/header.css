@@ -10,16 +10,19 @@
 .header {
     width: 1080px;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .header nav {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 2rem;
     opacity: 0.8;
 }
+

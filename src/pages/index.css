@@ -1,13 +1,19 @@
 .section {
-    width: 540px;
-    margin: 0 auto;
+    width: 740px;
     padding-top: 11rem;
     padding-bottom: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section div {
+    max-width: 36rem;
+    margin: 0 auto;
 }
 
 .section h1 {
     margin: auto;  
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     flex-direction: row;
     gap: 0.8rem;
@@ -15,11 +21,14 @@
     align-items: center;
 }
 
-.section h2 {
-    display: flex;
-    margin: auto;    
-    font-size: 1.05rem;
+.section p {  
+    font-size: 1.2rem;
     line-height: 1.75rem;
-    font-weight: normal;
+    opacity: 0.80;
+    text-wrap: wrap;
+}
+
+.ylw-900 {
+    color: rgb(254 240 138);
 }
 
