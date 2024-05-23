@@ -1,4 +1,4 @@
-import { Header } from './components/header.js';
+import { Header } from './pages/header.js';
 import { Home } from './pages/index.js'
 import { Work } from './pages/work.js';
 import { About } from './pages/about.js';
