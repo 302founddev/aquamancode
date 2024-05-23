@@ -1,4 +1,4 @@
-import { MdWork } from "react-icons/md";
+import { FaCode } from "react-icons/fa6";
 import './work.css';
 
 
@@ -8,7 +8,7 @@ export const Work = () => {
         <section>
             <div className="projects">
                 <span>
-                    <MdWork className="icon2" />
+                    <FaCode className="icon2" />
                     <h2>Work</h2>
                 </span>
                 <span>
