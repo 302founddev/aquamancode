@@ -13,7 +13,7 @@
     flex-direction: row;
     align-items: center;
     margin: 0;
-    gap: 1.5rem; /* Añadido la unidad de medida */
+    gap: 1rem; /* Añadido la unidad de medida */
 }
 
 .icon2 {
