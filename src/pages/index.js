@@ -1,7 +1,7 @@
 import './index.css';
 import Badge from 'react-bootstrap/Badge';
-import { IconGithub } from '../icons/GitHub';
-import { IconLinkedin } from '../icons/LinkedIn';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
 
 export const Home = () => {
@@ -13,8 +13,8 @@ export const Home = () => {
         <main>
             <section className='section'>
                 <div>
-                    <h1>Hey, I am JarsCode 
-                        <a className='fs-6' href={linkedin}>
+                    <h1>Hey, I am jarscode 
+                        <a href={linkedin} className='bdg' target='_blank' rel='noopener noreferer'>
                             <Badge> Available for hire</Badge>
                         </a>
                     </h1>
@@ -25,14 +25,34 @@ export const Home = () => {
                     </p>
                 </div>
 
-                <ul className='icons'>
-                    <li>
-                        <a href={linkedin}><IconLinkedin className='icon' /></a>
-                    </li>
-                    <li>
-                        <a href={github}><IconGithub className='icon' /></a>
-                    </li>
-                </ul>
+                <nav className='icons'>
+                    <span>
+                        <a 
+                            href={linkedin} 
+                            target='_blank'
+                            rel='noopener noreferer'>
+                                <FaLinkedin className='icon' />
+                            LinkedIn
+                        </a>
+                    </span>
+                    <span>
+                        <a 
+                            href={github} 
+                            target='_blank' 
+                            rel="noopener noreferer">
+                                <FaGithub className='icon' />
+                            Github
+                        </a>
+                    </span>
+                    <span>
+                        <a  href='#'
+                            target='_blank' 
+                            rel='noopener noreferer'>
+                                <CiMail className='icon' />
+                            jarscode.dev@outlook.com
+                        </a>
+                    </span>
+                </nav>
             </section>
         </main>
     )

@@ -1,6 +1,5 @@
 import { Header } from './components/header.js';
 import { Home } from './pages/index.js'
-import './App.css';
 import '@fontsource-variable/onest';
 
 
