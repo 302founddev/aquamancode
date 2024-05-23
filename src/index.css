@@ -1,11 +1,16 @@
 body {
-  background: radial-gradient(125% 125% at 50% 80%, black 60%, purple 100%);
+  background-color: black!important;
   height: 100vh;
   color: white!important;
   font-family: 'Onest Variable', sans-serif!important;
   scroll-behavior: smooth;
-  }
+}
   
+.contenedor {
+  max-width: 50rem;
+  margin: auto;
+}
+
   @media (prefers-color-scheme: light) {
     :root {
       color: #213547;

@@ -1,77 +1,72 @@
-/* Estilos generales para secciones */
 .section {
     margin: 0 auto;
     padding-top: 10rem;
     padding-bottom: 6rem;
 }
 
-/* Estilos para los contenidos dentro de .section */
 .section div, .icons {
-    max-width: 45rem;
     margin: auto;
     padding-bottom: 1.5rem;
     padding-left: 0;
     padding-right: 0;
 }
 
-/* Estilos para títulos */
 .section h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 1rem;
     display: flex;
     align-items: center;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
-/* Estilos para párrafos */
-.exp {  
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    opacity: 0.80;
+.exp {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    opacity: 0.9;
     max-width: 36rem;
 }
 
-/* Estilos específicos para badges */
 .bdg {
     padding-left: 20px;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
-/* Estilos para el texto con clase .ylw-900 */
 .ylw-900 {
-    color: rgb(254 240 138);
+    --tw-text-opacity: 1;
+    color: rgb(254 241 139 / var(--tw-text-opacity));
 }
 
-/* Estilos para los iconos */
 .icons {
     display: flex; 
     padding: 0;
     gap: 1.5rem;
 }
 
-/* Estilos para los enlaces dentro de .icons */
-.icons a {
+.span-icon {
     display: flex;
     align-items: center;
     border-radius: 9999px;
-    text-decoration: none;
     border: 1px solid rgb(30 41 59);
     background: rgb(15 23 42);
     padding: 0.3rem 1.5rem;
-    color: white;
-    font-size: 0.95em;
+    font-size: 0.9em;
 }
 
-/* Estilos para los iconos dentro de .icons */
+.span-icon a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
 .icon {
-    font-size: 2em;
+    font-size: 1.6em;
     padding-right: 5px;
 }
 
-/* Estilos de hover para los enlaces dentro de .icons */
-.icons a:hover {
-    background: rgb(30 41 59);
+.span-icon:hover {
+    background: rgb(31 41 55);
 }
 
 .span-icon {

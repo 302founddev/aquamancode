@@ -1,7 +1,8 @@
 import './index.css';
 import Badge from 'react-bootstrap/Badge';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { RiMailSendFill } from "react-icons/ri";
+import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { FiGithub } from "react-icons/fi";
+import { CiLinkedin } from "react-icons/ci";
 
 
 export const Home = () => {
@@ -12,7 +13,7 @@ export const Home = () => {
     return (
         <main>
             <section className='section'>
-                <div className='container'>
+                <div>
                     <h1>Hey, I am jarscode 
                         <a href={linkedin} className='bdg' target='_blank' rel='noopener noreferer'>
                             <Badge> Available for hire</Badge>
@@ -27,7 +28,7 @@ export const Home = () => {
 
                 <nav className='icons'>
                     <span className='span-icon'>
-                        <FaLinkedin className='icon' />
+                        <CiLinkedin className='icon' />
                         <a 
                             href={linkedin} 
                             target='_blank'
@@ -37,7 +38,7 @@ export const Home = () => {
                     </span>
 
                     <span className='span-icon'>
-                        <FaGithub className='icon' />
+                        <FiGithub className='icon' />
                         <a 
                             href={github} 
                             target='_blank' 
@@ -47,7 +48,7 @@ export const Home = () => {
                     </span>
 
                     <span className='span-icon'>
-                        <RiMailSendFill className='icon' />
+                        <MdOutlineMarkEmailRead className='icon' />
                         <a  href='#'
                             target='_blank' 
                             rel='noopener noreferer'>
