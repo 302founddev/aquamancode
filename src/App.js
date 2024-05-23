@@ -1,5 +1,6 @@
 import { Header } from './components/header.js';
 import { Home } from './pages/index.js'
+import { Projects } from './pages/projects.js';
 import '@fontsource-variable/onest';
 
 
@@ -14,6 +15,7 @@ const App = () => {
       <div className="head position-absolute start-0 top-0 w-100 h-100">
           <Header />
           <Home />
+          <Projects />
       </div>
     </>
   )

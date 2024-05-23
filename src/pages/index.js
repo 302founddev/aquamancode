@@ -1,7 +1,7 @@
 import './index.css';
 import Badge from 'react-bootstrap/Badge';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { CiMail } from "react-icons/ci";
+import { RiMailSendFill } from "react-icons/ri";
 
 
 export const Home = () => {
@@ -48,7 +48,7 @@ export const Home = () => {
                         <a  href='#'
                             target='_blank' 
                             rel='noopener noreferer'>
-                                <CiMail className='icon' />
+                                <RiMailSendFill className='icon' />
                             jarscode.dev@outlook.com
                         </a>
                     </span>

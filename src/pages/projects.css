@@ -1,0 +1,25 @@
+.projects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 36rem; /* Cambiado de 740px */
+    margin: 0 auto;
+    max-width: 36rem;
+    padding-top: 2rem;
+}
+
+.projects span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    gap: 1.5rem; /* Añadido la unidad de medida */
+}
+
+.icon2 {
+    font-size: 2rem; /* Cambiado de 2em */
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem; /* Añadida la unidad de medida */
+}
+
