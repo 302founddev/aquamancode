@@ -1,0 +1,23 @@
+.projects {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.projects span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;
+    padding-bottom: 1rem;
+}
+
+.icon2 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+

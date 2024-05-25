@@ -1,0 +1,59 @@
+.section {
+    margin: 0 auto;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+.section div, .icons {
+    margin: auto;
+    padding-bottom: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.section h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.exp {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    opacity: 0.9;
+    max-width: 36rem;
+}
+
+.bdg {
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+.ylw-900 {
+    --tw-text-opacity: 1;
+    color: rgb(254 241 139 / var(--tw-text-opacity));
+}
+
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 9999px;
+    color: white;
+    gap: .4em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+

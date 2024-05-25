@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(20,14,57);
+  background: linear-gradient(356deg, rgba(20,14,57,1) 0%, rgba(2,6,26,1) 50%, rgba(30,20,57,1) 100%);
+  min-height: 100vh;
+  color: white!important;
+  font-family: 'Onest Variable', sans-serif!important;
+}
+  
+.contenedor {
+  max-width: 50rem;
+  margin: auto;
+}
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+  
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+
