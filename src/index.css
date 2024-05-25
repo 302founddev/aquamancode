@@ -1,13 +1,14 @@
-html {
+#root {
   scroll-behavior: smooth;
+  min-height: 100vh;
+  background: rgb(2,6,26);
+  background: linear-gradient(356deg, rgba(2,6,26,1) 41%, rgba(30,20,57,1) 100%);
+  font-family: 'Onest Variable', sans-serif;
+  color: white;
 }
 
 body {
-  background: rgb(20,14,57);
-  background: linear-gradient(356deg, rgba(20,14,57,1) 0%, rgba(2,6,26,1) 50%, rgba(30,20,57,1) 100%);
   min-height: 100vh;
-  color: white!important;
-  font-family: 'Onest Variable', sans-serif!important;
 }
   
 .contenedor {

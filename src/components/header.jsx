@@ -4,7 +4,7 @@ export const Header = () => {
 
     return (
         <>
-            <header className="header">
+            <nav className="navBar">
                 <a href='/'>
                     <span>Juan Alberto</span>
                 </a>
@@ -15,7 +15,7 @@ export const Header = () => {
                     <a href="/about">about</a>
                     <a href="/contact">contact</a>
                 </nav>
-            </header>
+            </nav>
         </>
     )
 }

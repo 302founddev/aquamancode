@@ -24,11 +24,6 @@ export const About = () => {
                 y contribuir de manera significativa. Estoy emocionado por la posibilidad de trabajar en proyectos innovadores
                 y colaborar con otros profesionales del sector.
             </span>
-            <span className='content-3'>
-                Mi dedicación y motivación son mis mayores activos, y estoy 
-                seguro de que puedo aportar un valioso impulso a cualquier equipo. Juntos, podemos convertir ideas en realidad y 
-                alcanzar el éxito en el mundo digital. ¡Estoy listo para comenzar esta emocionante jornada contigo!
-            </span>
         </section>
     )
 }

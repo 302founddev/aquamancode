@@ -15,6 +15,11 @@
     padding-bottom: 1rem;
 }
 
+.content-1, .content-2 {
+    text-indent: 1em;
+    text-wrap: pretty;
+}
+
 .content-2 {
     padding-top: 1.5rem;
 }
@@ -25,3 +30,11 @@
     align-items: center;
     margin-bottom: 0.5rem; /* Añadida la unidad de medida */
 }
+
+.about-h2 {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: #525252;
+    text-decoration-thickness: 4px;
+}
+
