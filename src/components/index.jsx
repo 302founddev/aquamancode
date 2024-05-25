@@ -13,18 +13,25 @@ export const Home = () => {
     return (
         <main>
             <section className='section'>
-                <div>
-                    <h1>Hey, I am jarscode 
-                        <a href={linkedin} className='bdg' target='_blank' rel='noopener noreferer'>
+                    <div className='bTitle'>
+                        <h1>Hey, I am jarscode</h1>                        
+                        <a
+                            href={linkedin} 
+                            className='bdg' 
+                            target='_blank' 
+                            rel='noopener noreferer'>
+                                
                             <Badge> Available for hire</Badge>
                         </a>
-                    </h1>
-                    <h3 className='exp'>
-                        +15 years experience.
-                        <span className='ylw-900'> Web Developer and Content Creator</span>. From Madrid, Spain.
-                        I specialize in UI design, responsive web design and visual development. Passionate about technology.
-                    </h3>
-                </div>
+                    </div>
+
+                    <div>
+                        <h3 className='exp'>
+                            +15 years experience.
+                            <span className='ylw-900'> Web Developer and Content Creator</span>. From Madrid, Spain.
+                            I specialize in UI design, responsive web design and visual development. Passionate about technology.
+                        </h3>
+                    </div>
 
                 <nav className='icons'>
                         <a 

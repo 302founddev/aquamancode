@@ -11,13 +11,18 @@
     padding-right: 0;
 }
 
-.section h1 {
+.bTitle h1 {
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 1rem;
     display: flex;
     align-items: center;
     padding-bottom: 2rem;
+    padding-right: 1rem;
+}
+
+.bTitle {
+    display: flex;
 }
 
 .exp {
@@ -29,7 +34,6 @@
 }
 
 .bdg {
-    padding-left: 20px;
     font-size: 1.1rem;
 }
 
@@ -57,3 +61,6 @@
     padding-bottom: .5rem;
 }
 
+.icons a:hover {
+    background: #333333;
+}
