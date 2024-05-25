@@ -1,11 +1,16 @@
-.navBar > a > span {
+.navBar > button > span {
     font-size: 1.7em;
 }
 
-.navBar a {
+.buttons button {
     text-decoration: none;
-    color: white;
+    background-color: transparent;
     font-size: 1.1em;
+}
+
+.buttons button, .navBar a {
+    color: white;
+    text-decoration: none;
 }
 
 .navBar a:hover {

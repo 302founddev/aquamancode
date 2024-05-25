@@ -1,13 +1,21 @@
 import './header.css';
+import { MdDarkMode } from "react-icons/md";
+import { MdLightMode } from "react-icons/md";
+
 
 export const Header = () => {
 
     return (
         <>
-            <nav className="navBar">
-                <a href='/'>
-                    <span>Juan Alberto</span>
-                </a>
+            <section className="navBar">
+                <div className='buttons'>
+                    <button href='/'>
+                        <span><MdDarkMode /></span>
+                    </button>
+                    <button>
+                        <span><MdLightMode /></span>
+                    </button>
+                </div>
 
                 <nav>
                     <a href="/">home</a>
@@ -15,7 +23,7 @@ export const Header = () => {
                     <a href="/about">about</a>
                     <a href="/contact">contact</a>
                 </nav>
-            </nav>
+            </section>
         </>
     )
 }
