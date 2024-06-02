@@ -1,6 +1,5 @@
 #root {
   scroll-behavior: smooth;
-  min-height: 100vh;
   background: rgb(2,6,26);
   background: linear-gradient(356deg, rgba(2,6,26,1) 41%, rgba(30,20,57,1) 100%);
   font-family: 'Onest Variable', sans-serif;
@@ -8,11 +7,11 @@
 }
 
 body {
-  min-height: 100vh;
+  margin: 0;
 }
   
 .contenedor {
-  max-width: 50rem;
+  width: 50rem;
   margin: auto;
 }
 

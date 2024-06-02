@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     gap: .8rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .projects span h2 {
@@ -30,15 +30,19 @@
     border-radius: 1em;
 }
 
+.projects span h2, .icon2 {
+    margin: 0;
+}
+
 .cont-project {
     border: #525252 solid 2px;
-    width: 100%;
     height: 18rem;
+    display: flex;
+    flex-direction: row;
 }
 
 .cont-project img {
     width: 40%;
-    height: 100%;
     padding: 10px;
     border-radius: 1em;
 }

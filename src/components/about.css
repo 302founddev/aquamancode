@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     gap: .8rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .content-1, .content-2 {
@@ -37,5 +37,9 @@
     text-decoration-color: #525252;
     text-decoration-thickness: 4px;
     font-size: 1.7em;
+}
+
+.about-h2, .icon3 {
+    margin: 0;
 }
 

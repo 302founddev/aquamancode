@@ -4,7 +4,14 @@
     padding-bottom: 4rem;
 }
 
-.section div, .icons {
+.section div {
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100px;
+}
+
+.icons {
     margin: auto;
     padding-bottom: 1.5rem;
     padding-left: 0;
@@ -17,32 +24,44 @@
     line-height: 1rem;
     display: flex;
     align-items: center;
-    padding-bottom: 2rem;
-    padding-right: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
 .bTitle {
     display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
 }
 
 .exp {
-    font-size: 1.15em;
+    font-size: 1.25em;
     line-height: 1.5rem;
     font-weight: 400;
     opacity: 0.9;
-    max-width: 36rem;
+    max-width: 40rem;
     text-wrap: pretty;
 }
 
 .bdg {
-    font-size: 1.05em;
-    bottom: 7px;
-    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: .8em;
+    margin: 0;
+    color: #000;
+    text-decoration: none;
+    align-items: center;
+    height: 30px;
+    background: #e7da82;
+    border-radius: 5rem;
+    text-align: center;
+    padding: 0px 15px;
 }
 
 .ylw-900 {
     --tw-text-opacity: 1;
-    color: rgb(254 241 139 / var(--tw-text-opacity));
+    color: rgb(254 240 138 / var(--tw-text-opacity));
 }
 
 .red-color{
@@ -52,7 +71,7 @@
 .icons {
     display: flex;
     gap: 1rem;
-    font-size: .90em;
+    font-size: .95em;
 }
 
 .icons a {

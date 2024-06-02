@@ -31,8 +31,8 @@ export const Home = () => {
                             <span className='ylw-900'> Web Developer and Content Creator</span>. 
                             <span className=''>From Madrid, Spain</span>.
                             I specialize in Front-End development,
-                            <span className='red-color'> Ethical Hacking, 
-                            </span> responsive web design and visual development.
+                            <span className='red-color'> Ethical Hacking
+                            </span> and responsive web design and visual development.
                         </h3>
                     </div>
 
