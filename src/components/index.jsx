@@ -27,9 +27,12 @@ export const Home = () => {
 
                     <div>
                         <h3 className='exp'>
-                            +15 years experience.
-                            <span className='ylw-900'> Web Developer and Content Creator</span>. <span className=''>From Madrid, Spain</span>.
-                            I specialize in UI design, responsive web design and visual development. Passionate about technology.
+                            Passionate about technology.
+                            <span className='ylw-900'> Web Developer and Content Creator</span>. 
+                            <span className=''>From Madrid, Spain</span>.
+                            I specialize in Front-End development,
+                            <span className='red-color'> Ethical Hacking, 
+                            </span> responsive web design and visual development.
                         </h3>
                     </div>
 

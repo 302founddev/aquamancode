@@ -35,12 +35,16 @@
 }
 
 .bdg {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .ylw-900 {
     --tw-text-opacity: 1;
     color: rgb(254 241 139 / var(--tw-text-opacity));
+}
+
+.red-color{
+    color: #fd7b7e;
 }
 
 .icons {

@@ -8,16 +8,12 @@ export const Header = () => {
     return (
         <>
             <section className="navBar">
-                <div className='buttons'>
-                    <button href='/'>
-                        <span><MdDarkMode /></span>
-                    </button>
-                    <button>
-                        <span><MdLightMode /></span>
-                    </button>
-                </div>
-
                 <nav>
+                    <div className='light-dark'>
+                        <span><MdDarkMode /></span>
+                        <span><MdLightMode /></span>
+                    </div>
+
                     <a href="/">home</a>
                     <a href="/work">work</a>
                     <a href="/about">about</a>
