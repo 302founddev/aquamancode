@@ -36,6 +36,8 @@
 
 .bdg {
     font-size: 1.05em;
+    bottom: 10px;
+    position: relative;
 }
 
 .ylw-900 {
