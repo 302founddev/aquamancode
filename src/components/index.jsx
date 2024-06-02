@@ -57,7 +57,7 @@ export const Home = () => {
                             target='_blank' 
                             rel='noopener noreferer'>
                             <MdOutlineMarkEmailRead className='icon' />
-                            Contact Me
+                            jarscode.dev@outlook.com
                         </a>
                 </nav>
             </section>

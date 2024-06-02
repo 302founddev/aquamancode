@@ -9,11 +9,11 @@ export const Work = () => {
             <div className="projects">
                 <span>
                     <FaCode className="icon2" />
-                    <h2>Work</h2>
+                    <h2>work</h2>
                 </span>
-                <span>
-                    
-                </span>
+                <div className="cont-project">
+                    <img src="/src/media/project1.png" />
+                </div>
             </div>
         </section>
     )
