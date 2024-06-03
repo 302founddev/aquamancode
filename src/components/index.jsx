@@ -3,6 +3,7 @@ import Badge from 'react-bootstrap/Badge';
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { FiGithub } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
+import { CopyElements } from './scripts/copy';
 
 
 export const Home = () => {
@@ -19,7 +20,7 @@ export const Home = () => {
                             href={linkedin} 
                             className='bdg' 
                             target='_blank' 
-                            rel='noopener noreferer'>
+                            rel='noopener'>
                                 
                             <Badge> Available for hire</Badge>
                         </a>
@@ -45,17 +46,17 @@ export const Home = () => {
                             LinkedIn
                         </a>
 
-                        <a  className='span-icon'
+                        <a
                             href={github} 
                             target='_blank'
-                            rel="noopener noreferer">
+                            rel="noopener">
                             <FiGithub className='icon' />
                             Github
                         </a>
 
-                        <a  href='#'
-                            target='_blank' 
-                            rel='noopener noreferer'>
+                        <a  
+                            onLoad={CopyElements}
+                            id='text-to-copy'>
                             <MdOutlineMarkEmailRead className='icon' />
                             jarscode.dev@outlook.com
                         </a>

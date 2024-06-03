@@ -49,14 +49,16 @@
     align-items: center;
     font-size: .8em;
     margin: 0;
-    color: #000;
+    color: #fff;
+    font-weight: 600;
     text-decoration: none;
     align-items: center;
-    height: 30px;
-    background: #e7da82;
+    height: 23px;
+    background: transparent;
     border-radius: 5rem;
     text-align: center;
     padding: 0px 15px;
+    border: 1px solid gray;
 }
 
 .ylw-900 {
@@ -88,6 +90,6 @@
     padding-bottom: .5rem;
 }
 
-.icons a:hover {
-    background: #5c5e68;
+#text-to-copy {
+    cursor: pointer;
 }

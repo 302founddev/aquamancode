@@ -4,6 +4,7 @@
     flex-direction: column;
     margin: 0 auto;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .projects span {
@@ -35,15 +36,41 @@
 }
 
 .cont-project {
-    border: #525252 solid 2px;
-    height: 18rem;
+    height: 16.5rem;
     display: flex;
     flex-direction: row;
+    gap: 1.5rem;
 }
 
 .cont-project img {
     width: 40%;
     padding: 10px;
     border-radius: 1em;
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+}
+
+.type ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+}
+
+.type ul li {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.react-icon {
+    color: rgba(0, 133, 199, 1);
+}
+
+.css-icon {
+
 }
 

@@ -1,5 +1,7 @@
 import { FaCode } from "react-icons/fa6";
 import './work.css';
+import { FaReact } from "react-icons/fa6";
+
 
 
 export const Work = () => {
@@ -16,8 +18,8 @@ export const Work = () => {
                     <div className="type">
                         <h3>SGVL</h3>
                         <ul>
-                            <li>ejsaf</li>
-                            <li>asfsd</li>
+                            <li><FaReact className="react-icon" />React</li>
+                            <li className="css-icon">CSS</li>
                         </ul>
                     </div>
                 </div>

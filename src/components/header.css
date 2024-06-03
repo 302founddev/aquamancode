@@ -16,7 +16,7 @@
 
 .navBar a:hover {
     opacity: 1;
-    color: rgb(254 241 100);
+    color: rgba(251, 205, 19, 1);
     text-decoration: underline;
     transition: all 0.3s ease;
 }
