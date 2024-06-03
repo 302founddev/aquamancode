@@ -11,18 +11,15 @@ export const About = () => {
                 <h2 className='about-h2'>'bout</h2>
             </span>
             <span className='content-1'>
-                ¡Hola! Soy un apasionado programador web en busca de nuevas oportunidades
-                 para crecer y desarrollarme profesionalmente. 
-                Aunque estoy al inicio de mi carrera profesional, mi dedicación al 
-                aprendizaje continuo y mi búsqueda constante de la excelencia me posicionan 
-                como un candidato ideal para formar parte de tu equipo. 
+                Hello! I'm a passionate web developer seeking new opportunities to grow and advance professionally. 
+                Though I'm at the beginning of my career, my dedication to continuous learning and constant 
+                pursuit of excellence position me as an ideal candidate to join your team.
             </span>
             <span className='content-2'>
-                Estoy constantemente buscando nuevas formas de mejorar mis habilidades y expandir 
-                mi conocimiento en el desarrollo web.
-                Mi enfoque es siempre aprender de cada experiencia y desafío, aprovechando cada oportunidad para mejorar
-                y contribuir de manera significativa. Estoy emocionado por la posibilidad de trabajar en proyectos innovadores
-                y colaborar con otros profesionales del sector.
+                I'm always seeking new ways to enhance my skills and expand my knowledge in web development. 
+                My approach is to learn from every experience and challenge, seizing each opportunity to improve 
+                and make meaningful contributions. I'm excited about the possibility of working on innovative 
+                projects and collaborating with other industry professionals.
             </span>
         </section>
     )

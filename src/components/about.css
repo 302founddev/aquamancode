@@ -12,6 +12,9 @@
     align-items: center;
     gap: .8rem;
     padding-bottom: 2rem;
+    width: 70%;
+    line-height: 1.4em;
+    text-wrap: pretty;
 }
 
 .content-1, .content-2 {
@@ -20,15 +23,11 @@
     font-size: 1.05em;
 }
 
-.content-2 {
-    padding-top: 1.5rem;
-}
-
 .icon3 {
-    font-size: 1.5em; /* Cambiado de 2em */
+    font-size: 1.5em;
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem; /* Añadida la unidad de medida */
+    margin-bottom: 0.5rem;
 }
 
 .about-h2 {
