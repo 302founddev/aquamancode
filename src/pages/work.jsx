@@ -14,11 +14,11 @@ export const Work = () => {
                     <h2>work</h2>
                 </span>
                 <div className="cont-project">
-                    <img src="/src/media/project1.png" />
+                    <img src="/src/media/project1.webp" />
                     <div className="type">
                         <h3>SGVL</h3>
                         <ul>
-                            <li><FaReact className="react-icon" />React</li>
+                            <li><FaReact className="react-icon" />React.js</li>
                             <li className="css-icon">CSS</li>
                         </ul>
                     </div>
