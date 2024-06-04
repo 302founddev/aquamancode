@@ -5,7 +5,7 @@ import { FcAbout } from "react-icons/fc";
 export const About = () => {
     return (
 
-        <section className='main'>
+        <section className='main' id="about">
             <span>
                 <FcAbout className='icon3'/>
                 <h2 className='about-h2'>'bout</h2>

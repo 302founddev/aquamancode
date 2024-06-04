@@ -65,7 +65,7 @@
     align-items: center;
     gap: .2rem;
     background: #0d0d0d;
-    border-radius: 9999px;
+    border-radius: .5rem;
     padding: 5px 10px;
     font-size: .85em;
 }
@@ -75,10 +75,14 @@
 }
 
 .css-icon {
-
+    color: #2565f2;
 }
 
 .js-icon {
     color: yellow;
+}
+
+.react-icon, .css-icon, .js-icon {
+    padding-right: 3px;
 }
 
