@@ -1,26 +1,28 @@
 import { Header } from './components/header';
-import { Home } from './components/index'
-import { Work } from './pages/work';
-import { About } from './components/about';
-import { Footer } from './components/footer';
+import { Index } from './components/index'
+import { Contact } from './pages/contact';
+import { Error404 } from './pages/NotFound';
+import { Route, Routes } from 'react-router-dom';
 import '@fontsource-variable/onest';
+
 
 
 const App = () => {
 
   return (
     <>
-      <section>
-          <Header />
-          <div className='contenedor'>
-              <Home />
-              <Work />
-              <About />
-              <Footer />
-          </div>
-      </section>
+        <Header />
+        <main className='contenedor'>
+            <Routes>
+                <Route path='/' element={<Index />} />
+                <Route path='/home' element={<Index />} />
+                <Route path='/contact' element={<Contact />} />
+                <Route path='*' element={<Error404 />} />
+            </Routes>
+        </main>
     </>
   )
 }
 
 export default App;
+

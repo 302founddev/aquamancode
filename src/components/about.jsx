@@ -1,15 +1,11 @@
 import './about.css';
-import { FcAbout } from "react-icons/fc";
 
 
 export const About = () => {
     return (
 
         <section className='main' id="about">
-            <span>
-                <FcAbout className='icon3'/>
-                <h2 className='about-h2'>'bout</h2>
-            </span>
+                
             <span className='content-1'>
                 Hello! I'm a passionate web developer seeking new opportunities to grow and advance professionally. 
                 Though I'm at the beginning of my career, my dedication to continuous learning and constant 

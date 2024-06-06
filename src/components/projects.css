@@ -1,0 +1,68 @@
+:root {
+    --rounded: 1em;
+    --white: #fff;
+    --border: 1px solid gray;
+    --hover-color: #2b2a33;
+    --border-color: rgb(75 85 99 / var(--tw-border-opacity));
+    --background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+
+article {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+
+article > img {
+    min-width: 26rem;
+    border-radius: var(--rounded);
+    height: 240px;
+}
+
+article div h3 {
+    padding: 5px 0 0 0;
+    margin: 0;
+}
+
+article div p {
+    opacity: .7;
+    text-wrap: pretty;
+}
+
+.tag-container {
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.tag-container li {
+    opacity: .95;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    padding-top: 10px;
+}
+
+.links > a {
+    color: var(--white);
+    text-decoration: none;
+    border: var(--border);
+    font-size: .95em;
+    padding: 10px 20px;
+    border-radius: .5em;
+    border-color: var(--border-color);
+    display: flex;
+    gap: .5em;
+    align-items: center;
+}
+
+.links > a:hover {
+    background: var(--background-color);
+    scale: 1;
+    transition: all .2s ease-in-out;
+}

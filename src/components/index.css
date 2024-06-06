@@ -1,7 +1,20 @@
+:root {
+    --white-color: #fff;
+    --red-color: #fd7b7e;
+    --border: 1px solid gray;
+    --bordered: 1px solid rgb(155, 155, 155);
+    --tw-text-opacity: 1;
+    --tw-bg-opacity: 1;
+    --tw-border-opacity: 1;
+    --yl-900: rgb(254 240 138 / var(--tw-text-opacity));
+    --border-color: rgb(75 85 99 / var(--tw-border-opacity));
+    --background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
 .section {
     margin: 0 auto;
     padding-top: 10rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     box-sizing: border-box;
 }
 
@@ -20,7 +33,7 @@
 }
 
 .bTitle h1 {
-    font-size: 3.2em;
+    font-size: 3em;
     font-weight: 700;
     line-height: 1rem;
     display: flex;
@@ -46,11 +59,11 @@
 }
 
 .bdg {
+    color: var(--white-color);
     display: flex;
     align-items: center;
     font-size: .8em;
     margin: 0;
-    color: #fff;
     font-weight: 600;
     text-decoration: none;
     align-items: center;
@@ -59,16 +72,22 @@
     border-radius: 5rem;
     text-align: center;
     padding: 0px 15px;
-    border: 1px solid gray;
+    border: var(--border);
+    border-color: var(--border-color);
+}
+
+.bdg:hover {
+    transform: scale(1.1);
+    transition: all .1s ease-in-out;
 }
 
 .ylw-900 {
     --tw-text-opacity: 1;
-    color: rgb(254 240 138 / var(--tw-text-opacity));
+    color: var(--yl-900);
 }
 
 .red-color{
-    color: #fd7b7e;
+    color: var(--red-color);
 }
 
 .icons {
@@ -81,7 +100,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    border: 1px solid gray;
+    border: var(--bordered);
     border-radius: 9999px;
     color: white;
     gap: .4em;
@@ -89,8 +108,33 @@
     padding-right: 1rem;
     padding-top: .5rem;
     padding-bottom: .5rem;
+    background-color: var(--background-color);
+    border-color: var(--border-color);
 }
 
-#text-to-copy {
-    cursor: pointer;
+#work {
+    padding: 20px 0;
+}
+
+#work > div, #about > div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 80%;
+}
+
+.both-icons {
+    font-size: 1.3em;
+}
+
+#work > div h3, #about > div h3 {
+    font-size: 1.7em;
+}
+
+#about {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+    padding-bottom: 1rem;
 }

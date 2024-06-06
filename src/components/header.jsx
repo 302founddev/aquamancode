@@ -1,6 +1,7 @@
 import './header.css';
 import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 
 export const Header = () => {
@@ -14,10 +15,10 @@ export const Header = () => {
                         <span><MdLightMode /></span>
                     </div>
 
-                    <a href="/">home</a>
+                    <Link to="/">home</Link>
                     <a href="#work">work</a>
                     <a href="#about">about</a>
-                    <a href="/contact">contact</a>
+                    <Link to="contact">contact</Link>
                 </nav>
             </section>
         </>
