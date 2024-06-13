@@ -1,43 +1,48 @@
-.light-dark {
-    font-size: 1.5em;
-    gap: .8rem;
-    display: flex;
-}
-
-.light-dark span {
-    cursor: pointer;
-}
-
-.navBar a {
-    color: white;
-    text-decoration: none;
-    margin: auto;
-}
-
-.navBar a:hover {
-    opacity: 1;
-    color: rgba(251, 205, 19, 1);
-    text-decoration: underline;
-    transition: all 0.3s ease;
-}
-
-.navBar {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
+.navbar {
+    width: 63%;
     backdrop-filter: blur(20px);
-    box-sizing: border-box;
-    padding: 5px;
-}
-
-.navBar nav {
+    margin: auto;
     display: flex;
-    flex-direction: row;
-    gap: 2.5rem;
-    opacity: 0.9;
-    padding: 2px 15px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+    border-radius: 5px;
+    top: 0;
 }
 
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 10px 0;
+    align-items: center;
+    margin: 0;
+}
 
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li:hover {
+    text-decoration: underline;
+}
+
+.navbar span a, .navbar span h3 {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.light-dark {
+    background: #764c04;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: transparent;
+}

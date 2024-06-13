@@ -1,24 +1,13 @@
-
-
 html {
   scroll-behavior: smooth;
   min-height: 100vh;
-  background: rgb(17, 24, 39);
   font-family: 'Onest Variable', sans-serif;
   color: white;
   max-width: 1280px; 
   margin: auto;
-}
-
-body {
-  margin: 0;
-}
-  
-.contenedor {
   width: 65%;
   margin: auto;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {

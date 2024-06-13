@@ -12,17 +12,13 @@
 }
 
 .section {
-    margin: 0 auto;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-top: 15rem;
     box-sizing: border-box;
 }
 
 .section div {
-    margin: auto;
     padding-left: 0;
     padding-right: 0;
-    height: 100px;
 }
 
 .icons {
@@ -32,7 +28,7 @@
     padding-right: 0;
 }
 
-.bTitle h1 {
+.b-title h1 {
     font-size: 3em;
     font-weight: 700;
     line-height: 1rem;
@@ -42,7 +38,7 @@
     margin: 0;
 }
 
-.bTitle {
+.b-title {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -112,22 +108,7 @@
     border-color: var(--border-color);
 }
 
-#work {
-    padding: 20px 0;
-}
-
-#work > div, #about > div {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    width: 80%;
-}
-
-.both-icons {
-    font-size: 1.3em;
-}
-
-#work > div h3, #about > div h3 {
+#about > div h3 {
     font-size: 1.7em;
 }
 
@@ -135,6 +116,3 @@
     padding-bottom: 2.5rem;
 }
 
-#footer {
-    padding-bottom: 1rem;
-}

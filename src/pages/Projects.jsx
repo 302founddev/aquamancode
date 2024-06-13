@@ -1,9 +1,11 @@
-import { FaCode } from "react-icons/fa6";
-import { ReactIcon, JavaScript, CSS, Github, DeveloperStudentClub } from './icons.jsx';
+import { Github, DeveloperStudentClub } from '../components/icons.jsx';
 import './projects.css';
+import { FaCode } from "react-icons/fa";
 
 
-export const Projects = () => {
+// ReactIcon, JavaScript, CSS, 
+
+export const Work = () => {
 
     const WORKS = [
         {
@@ -20,14 +22,20 @@ export const Projects = () => {
             link: "#",
             github: "github.com",
             image: "../../public/projects/cap.webp",
-            tags: ['React', 'Javascript', 'CSS']
+            tags: ['Javascript', 'CSS']
         }
     ]
-        
+
+
+
     return (
         <>
-            {
-                WORKS.map((work, index) => ( // Aquí agregué paréntesis para envolver el retorno de la función de flecha
+            <section className='section-cont'>
+                <div className='title'>
+                    <FaCode className='both-icons' />
+                    <h3>work</h3>
+                </div>
+                {WORKS.map((work, index) => ( // Aquí agregué paréntesis para envolver el retorno de la función de flecha
                     <article key={`work-${index}`}> {/* Añadí un key único */}
                         <img src={work.image} alt={`Project screenshot ${work.title}`} /> {/* Cambié work.image por work.title para hacer el alt más descriptivo */}
                         <div>
@@ -40,12 +48,14 @@ export const Projects = () => {
                             <p>{work.description}</p>
                             <div className="links">
                                 <a 
+                                    className="p-links"
                                     href="github.com"
                                     target="_blank"
                                 >
                                     <Github />Code
                                 </a>
                                 <a 
+                                    className="p-links"
                                     href="website.com"
                                     target="_blank"
                                 >
@@ -54,8 +64,8 @@ export const Projects = () => {
                             </div>
                         </div>
                     </article>
-                ))
-            }
+                ))}
+            </section>
         </>
     )
 }

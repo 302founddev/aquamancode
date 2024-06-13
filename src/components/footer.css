@@ -1,5 +1,5 @@
 :root {
-    --text-op-color: #6B7280;;
+    --text-white: #fff;;
 }
 
 .foot {
@@ -7,11 +7,12 @@
     background-color: #1f2937; 
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
     color: #6B7280;
+    width: 100%;
 }
 
 .foot > div {
     padding: 1rem; 
-    max-width: 1280px; 
+    max-width: 1280px;
 
     @media (min-width: 768px) { 
         display: flex; 
@@ -23,7 +24,8 @@
 .foot span {
     font-size: 0.875rem;
     line-height: 1.25rem; 
-    color: #6B7280; 
+    color: var(--text-white);
+    opacity: .7; 
 
     @media (min-width: 640px) { 
         text-align: center; 
@@ -31,11 +33,12 @@
 }
 
 .foot span a {
-    color: var(--text-op-color);
+    color: var(--text-white);
 }
 
 .foot span a:hover {
     text-decoration: underline;
+    color: var(--text-white);
 }
 
 .foot-ul {
@@ -46,16 +49,18 @@
     font-size: 0.875rem;
     line-height: 1.25rem; 
     font-weight: 500; 
-    color: var(--text-op-color) 
+    color: var(--text-white) ;
     list-style: none;
     gap: 1rem;
 }
 
-.links:hover {
+.footer-links:hover {
     text-decoration: underline;
 }
 
-.links {
-    color: #6B7280;
+.footer-links {
+    opacity: .7;
+    color: var(--text-white);
     text-decoration: none;
 }
+

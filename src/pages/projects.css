@@ -2,11 +2,11 @@
     --rounded: 1em;
     --white: #fff;
     --border: 1px solid gray;
+    --tw-border-opacity: 1;
     --hover-color: #2b2a33;
     --border-color: rgb(75 85 99 / var(--tw-border-opacity));
     --background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
-
 
 article {
     display: flex;
@@ -22,13 +22,18 @@ article > img {
 }
 
 article div h3 {
-    padding: 5px 0 0 0;
+    padding: 10px 0 0 0;
     margin: 0;
 }
 
 article div p {
     opacity: .7;
     text-wrap: pretty;
+    width: 85%;
+}
+
+.section-cont {
+    padding-top: 120px;
 }
 
 .tag-container {
@@ -45,10 +50,9 @@ article div p {
 .links {
     display: flex;
     gap: 1rem;
-    padding-top: 10px;
 }
 
-.links > a {
+.p-links {
     color: var(--white);
     text-decoration: none;
     border: var(--border);
@@ -61,8 +65,25 @@ article div p {
     align-items: center;
 }
 
-.links > a:hover {
+.p-links:hover {
     background: var(--background-color);
-    scale: 1;
     transition: all .2s ease-in-out;
+    border: 1px solid rgb(75 85 99 / 1);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title h3 {
+    font-size: 1.7em;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #3a3a3c;
+}
+
+.both-icons {
+    font-size: 1.3em;
 }

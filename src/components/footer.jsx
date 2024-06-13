@@ -5,19 +5,13 @@ export const Footer = () => {
 
         <footer class="foot">
             <div>
-                <span>© 2023 <a href="#">jarscodedev</a>. All Rights Reserved.</span>
+                <span>© 2023 <a href="https://www.jarscode.dev/" target='_blank'>jarscodedev</a>. All Rights Reserved.</span>
                 <ul class="foot-ul">
                     <li>
-                        <a href="#" class="links">About</a>
+                        <a href="#" class="footer-links">Licensing</a>
                     </li>
                     <li>
-                        <a href="#" class="links">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="links">Licensing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="links">Contact</a>
+                        <a href="#" class="footer-links">Contact</a>
                     </li>
                 </ul>
             </div>
