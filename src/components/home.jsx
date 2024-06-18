@@ -1,4 +1,4 @@
-import './index.css';
+import './home.css';
 import Badge from 'react-bootstrap/Badge';
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { FiGithub } from "react-icons/fi";
@@ -7,8 +7,7 @@ import { Work } from '../pages/Projects';
 import { About } from './about';
 
 
-export const Index = () => {
-
+export const Home = () => {
     const links = {
         linkedin: "https://linkedin.com/in/jarscodedev",
         github: "https://github.com/jarscodedev"
@@ -16,7 +15,7 @@ export const Index = () => {
 
     return (
         <main>
-            <section className='section'>
+            <section className='presentation'>
                 <div className='b-title'>
                     <h1>Hey, I am jarsdev</h1> 
                     <a

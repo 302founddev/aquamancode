@@ -33,7 +33,7 @@ export const Work = () => {
             <section className='section-cont'>
                 <div className='title'>
                     <FaCode className='both-icons' />
-                    <h3>work</h3>
+                    <h3>Projects</h3>
                 </div>
                 {WORKS.map((work, index) => ( // Aquí agregué paréntesis para envolver el retorno de la función de flecha
                     <article key={`work-${index}`}> {/* Añadí un key único */}
@@ -52,7 +52,7 @@ export const Work = () => {
                                     href="github.com"
                                     target="_blank"
                                 >
-                                    <Github />Code
+                                    <Github />Source
                                 </a>
                                 <a 
                                     className="p-links"

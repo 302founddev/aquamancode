@@ -1,7 +1,8 @@
 :root {
+    margin: auto;
     --white-color: #fff;
     --red-color: #fd7b7e;
-    --border: 1px solid gray;
+    --border: 2px solid white;
     --bordered: 1px solid rgb(155, 155, 155);
     --tw-text-opacity: 1;
     --tw-bg-opacity: 1;
@@ -11,14 +12,19 @@
     --background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.section {
-    padding-top: 15rem;
+.presentation {
+    padding-top: 11rem;
     box-sizing: border-box;
 }
 
-.section div {
+.b-title {
     padding-left: 0;
     padding-right: 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
 }
 
 .icons {
@@ -38,13 +44,6 @@
     margin: 0;
 }
 
-.b-title {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-}
-
 .exp {
     font-size: 1.25em;
     line-height: 1.5rem;
@@ -57,24 +56,24 @@
 .bdg {
     color: var(--white-color);
     display: flex;
-    align-items: center;
     font-size: .8em;
     margin: 0;
-    font-weight: 600;
+    font-weight: 550;
     text-decoration: none;
     align-items: center;
-    height: 23px;
-    background: transparent;
+    height: 20px;
+    background: #3278c6;
     border-radius: 5rem;
     text-align: center;
-    padding: 0px 15px;
+    padding: 11px 15px;
     border: var(--border);
     border-color: var(--border-color);
+    opacity: .9;
 }
 
 .bdg:hover {
     transform: scale(1.1);
-    transition: all .1s ease-in-out;
+    transition: all 300ms ease;
 }
 
 .ylw-900 {
@@ -108,11 +107,4 @@
     border-color: var(--border-color);
 }
 
-#about > div h3 {
-    font-size: 1.7em;
-}
-
-#about {
-    padding-bottom: 2.5rem;
-}
 

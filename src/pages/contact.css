@@ -1,0 +1,30 @@
+.contact-form {
+  padding-top: 10rem;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid gray;
+  padding: 10px 15px;
+  font-size: 0.8em;
+  border-radius: 5px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  gap: 0.5rem;
+}
+
+form input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}

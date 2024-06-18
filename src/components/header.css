@@ -1,16 +1,17 @@
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 15px;
+    border-radius: 5px;
     width: 63%;
     backdrop-filter: blur(20px);
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    left: 0;
-    right: 0;
-    padding: 0 15px;
-    border-radius: 5px;
-    top: 0;
+    z-index: 1;
 }
 
 .navbar ul {
@@ -19,6 +20,7 @@
     gap: 2rem;
     padding: 10px 0;
     align-items: center;
+    opacity: .95;
     margin: 0;
 }
 
@@ -35,14 +37,20 @@
     margin: 0;
     color: #fff;
     text-decoration: none;
+    opacity: .95;
 }
 
 .light-dark {
     background: #764c04;
+    color: #fff;
     display: flex;
     align-items: center;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
     border-color: transparent;
+}
+
+.sticky {
+    background: gray;
 }

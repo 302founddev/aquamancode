@@ -9,7 +9,7 @@ export const About = () => {
 
             <div className='about'>
                 <MdOutlineRoundaboutRight className='both-icons' />
-                <h3>about</h3>
+                <h3>About</h3>
             </div>
                 
             <span className='content-1'>

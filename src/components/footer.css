@@ -2,15 +2,15 @@
     --text-white: #fff;;
 }
 
-.foot {
+.footer {
     border-radius: 0.5rem; 
     background-color: #1f2937; 
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
     color: #6B7280;
-    width: 100%;
+    position: absolute;
 }
 
-.foot > div {
+.footer > div {
     padding: 1rem; 
     max-width: 1280px;
 
@@ -21,7 +21,7 @@
     }
 }
 
-.foot span {
+.footer span {
     font-size: 0.875rem;
     line-height: 1.25rem; 
     color: var(--text-white);
@@ -32,16 +32,16 @@
     }
 }
 
-.foot span a {
+.footer span a {
     color: var(--text-white);
 }
 
-.foot span a:hover {
+.footer span a:hover {
     text-decoration: underline;
     color: var(--text-white);
 }
 
-.foot-ul {
+.footer-ul {
     display: flex; 
     margin: 0;
     flex-wrap: wrap; 
