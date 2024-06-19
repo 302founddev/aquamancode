@@ -13,29 +13,33 @@ export const Home = () => {
         github: "https://github.com/jarscodedev"
     }
 
+
+
+      
+
     return (
         <main>
             <section className='presentation'>
                 <div className='b-title'>
-                    <h1>Hey, I am jarsdev</h1> 
+                    <h1>Hey, soy jarsdev</h1> 
                     <a
                         href={links.linkedin} 
                         className='bdg' 
                         target='_blank' 
                         rel='noopener'>
                             
-                        <Badge> Available for hire</Badge>
+                        <Badge> Disponible para trabajar</Badge>
                     </a>
                 </div>
 
                 <div>
                     <h3 className='exp'>
-                        Passionate about technology.
-                        <span className='ylw-900'> Web Developer and Content Creator</span>. 
-                        <span className=''>From Madrid, Spain</span>.
-                        I specialize in Front-End development,
-                        <span className='red-color'> Ethical Hacking
-                        </span> and responsive web design and visual development.
+                        Apasionado por la tecnología.
+                        <span className='ylw-900'>Desarrollador web y creador de contenido, </span>. 
+                        <span className=''>Desde Madrid, Spain</span>.
+                        Me especializo en desarrollo Front-End,
+                        <span className='red-color'> Hacking Ético
+                        </span> & diseño web responsivo y desarrollo visual.
                     </h3>
                 </div>
 

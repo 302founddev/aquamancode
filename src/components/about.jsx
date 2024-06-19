@@ -8,20 +8,18 @@ export const About = () => {
         <section className='main'>
 
             <div className='about'>
-                <MdOutlineRoundaboutRight className='both-icons' />
-                <h3>About</h3>
+                <MdOutlineRoundaboutRight className='about-icon' />
+                <h3>Sobre Mí</h3>
             </div>
                 
             <span className='content-1'>
-                Hello! I am a passionate web developer seeking new opportunities to grow and advance professionally. 
-                Though I am at the beginning of my career, my dedication to continuous learning and constant 
-                pursuit of excellence position me as an ideal candidate to join your team.
-            </span>
-            <span className='content-2'>
-                I am always seeking new ways to enhance my skills and expand my knowledge in web development. 
-                My approach is to learn from every experience and challenge, seizing each opportunity to improve 
-                and make meaningful contributions. I am excited about the possibility of working on innovative 
-                projects and collaborating with other industry professionals.
+                ¡Hola! Soy un desarrollador web apasionado en busca de nuevas oportunidades para crecer y avanzar 
+                profesionalmente. Aunque estoy al principio de mi carrera, mi dedicación al aprendizaje continuo y la 
+                constante búsqueda de la excelencia me posicionan como un candidato ideal para unirse a su equipo. Siempre estoy 
+                buscando nuevas formas de mejorar mis habilidades y expandir mis conocimientos en desarrollo web. Mi enfoque 
+                es aprender de cada experiencia y desafío, aprovechando cada oportunidad para mejorar y realizar contribuciones 
+                significativas. Estoy emocionado por la posibilidad de trabajar en proyectos innovadores y colaborar con otros 
+                profesionales de la industria.
             </span>
         </section>
     )

@@ -8,6 +8,10 @@
     --background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.section-cont {
+    padding-bottom: 80px;
+}
+
 article {
     display: flex;
     gap: 2.2rem;
@@ -29,12 +33,13 @@ article > div {
 article div h3 {
     margin: 0;
     font-size: 1.4em;
+    padding-bottom: .5rem;
 }
 
 article div p {
-    opacity: .7;
+    opacity: .6;
     text-wrap: pretty;
-    margin: 0px 0px 25px 0px;
+    line-height: 1.6;
 }
 
 .section-cont {
@@ -46,6 +51,7 @@ article div p {
     display: flex;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .tag-container li {
@@ -63,33 +69,33 @@ article div p {
     border: var(--border);
     font-size: .95em;
     padding: 10px 13px;
+    border: 1px solid rgb(75 85 99 / 1);
     border-radius: 12px;
-    border-color: var(--border-color);
     display: flex;
     gap: .5em;
     align-items: center;
+    background: var(--background-color);
 }
 
 .p-links:hover {
-    background: var(--background-color);
     transition: all .2s ease-in-out;
-    border: 1px solid rgb(75 85 99 / 1);
 }
 
 .title {
     display: flex;
     align-items: center;
     gap: 1rem;
+    padding-bottom: 15px;
 }
 
 .title h3 {
-    font-size: 1.7em;
+    font-size: 1.8em;
     text-decoration: underline;
     text-decoration-thickness: 5px;
     text-decoration-color: #848487;
 }
 
-.both-icons {
-    font-size: 1.3em;
+.project-icon {
+    font-size: 2em;
 }
 

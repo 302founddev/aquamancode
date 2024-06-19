@@ -16,10 +16,19 @@
     text-wrap: pretty;
 }
 
-.content-1, .content-2 {
+.about h3 {
+    font-size: 1.8em;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #848487;
+} 
+
+.content-1{
     text-indent: 1em;
     text-wrap: pretty;
-    font-size: 1.05em;
+    font-size: 1.2em;
+    line-height: 1.7;
 }
 
 .icon3 {
@@ -29,8 +38,8 @@
     margin-bottom: 0.5rem;
 }
 
-.both-icons {
-    font-size: 1.3em;
+.about-icon {
+    font-size: 2em;
 }
 
 .icon3 {
@@ -40,15 +49,8 @@
 .about {
     display: flex;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     gap: 1rem;
+    text-wrap: pretty;
 }
-
-.about h3 {
-    font-size: 1.7em;
-    margin: 0;
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    text-decoration-color: #848487;
-} 
 
