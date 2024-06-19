@@ -21,10 +21,9 @@ export const Header = () => {
                 </span>
 
                 <ul>
-                    <li><Link to="/home">Inicio</Link></li>
-                    <li><Link to="/work">Proyectos</Link></li>
-                    <li><a href="/#about">Sobre mí</a></li>
-                    <li><Link to="/contact">Contacto</Link></li>
+                    <li><Link to="/projectos">Proyectos</Link></li>
+                    <li><a href="/#sobremi">Sobre mí</a></li>
+                    <li><Link to="/contacto">Contacto</Link></li>
                     <li><button className='light-dark'><MdLightMode /></button></li>
                 </ul>
             </nav>

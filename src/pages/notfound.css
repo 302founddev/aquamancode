@@ -1,0 +1,9 @@
+.error {
+    padding-top: 15rem;
+    display: flex;
+    align-items: center;
+}
+
+.error h2 {
+    margin: auto;
+}

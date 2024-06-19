@@ -13,10 +13,6 @@ export const Home = () => {
         github: "https://github.com/jarscodedev"
     }
 
-
-
-      
-
     return (
         <main>
             <section className='presentation'>
@@ -72,7 +68,7 @@ export const Home = () => {
                 <Work />
             </section>
 
-            <section id='about'>
+            <section id='sobremi'>
                 <About />
             </section>
 
