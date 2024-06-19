@@ -33,11 +33,15 @@
     text-decoration: underline;
 }
 
-.navbar span a, .navbar span h3 {
+.navbar span a, .navbar span h2 {
     margin: 0;
     color: #fff;
     text-decoration: none;
     opacity: .95;
+}
+
+.navbar span h2 {
+    font-size: 1.3em;
 }
 
 .light-dark {

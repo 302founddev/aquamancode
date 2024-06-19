@@ -17,7 +17,7 @@ export const Header = () => {
         <>
             <nav className='navbar'>
                 <span>
-                    <a href='/'><h3>Juan Alberto</h3></a>
+                    <a href='/'><h2>Juan Alberto</h2></a>
                 </span>
 
                 <ul>

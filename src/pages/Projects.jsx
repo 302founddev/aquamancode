@@ -7,22 +7,22 @@ export const Work = () => {
 
     const PROJECTS = [
         {
-            title: "Suntraveltour - Es una Pre-landing page de una agencia de viajes",
-            description: "Biblioteca de logos SVG de las marcas más populares. Más de 10k visitas al mes y más de 2K SVGs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-            link: "#",
-            github: "https://github.com/tuusuario/repositorioGithub",
-            image: "../../public/projects/cap.webp",
-            tags: ['Javascript', 'CSS'],
-            live: false
+            title: "Suntraveltour - Es una pre-landing page de una agencia de viajes",
+            description: "Suntraveltour es tu puerta de entrada a aventuras globales inolvidables, ofreciendo experiencias personalizadas que transforman cada viaje en una experiencia única.",
+            link: "https://www.soltraveltour.es",
+            github: "https://github.com/jarscodedev/suntraveltour.git",
+            image: "../../public/projects/suntraveltour.webp",
+            tags: ['Javascript', 'Css'],
+            live: true
         },
         {
             title: "Fetchrick - Consume una API y muestra los datos por pantalla",
             description: "Biblioteca de logos SVG de las marcas más populares. Más de 10k visitas al mes y más de 2K SVGs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
             link: "#",
-            github: "https://github.com/tuusuario/otroRepositorio",
-            image: "../../public/projects/cap.webp",
-            tags: ['ReactJS', 'CSS'],
-            live: true
+            github: "https://github.com/jarscodedev/fetchapi_rickandmorty.git",
+            image: "../../public/projects/fetchrick.webp",
+            tags: ['React', 'Css'],
+            live: false
         }
     ];
 

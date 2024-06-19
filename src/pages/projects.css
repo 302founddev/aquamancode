@@ -39,7 +39,8 @@ article div h3 {
 article div p {
     opacity: .6;
     text-wrap: pretty;
-    line-height: 1.6;
+    line-height: 1.5;
+    font-size: 1em;
 }
 
 .section-cont {

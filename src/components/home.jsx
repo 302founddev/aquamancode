@@ -35,11 +35,11 @@ export const Home = () => {
                 <div>
                     <h3 className='exp'>
                         Apasionado por la tecnología.
-                        <span className='ylw-900'>Desarrollador web y creador de contenido, </span>. 
-                        <span className=''>Desde Madrid, Spain</span>.
+                        <span className='ylw-900'>Desarrollador web & creador de contenido</span>, 
+                        <span className=''> Desde Madrid, Spain</span>.
                         Me especializo en desarrollo Front-End,
                         <span className='red-color'> Hacking Ético
-                        </span> & diseño web responsivo y desarrollo visual.
+                        </span> & diseño web responsivo & desarrollo visual.
                     </h3>
                 </div>
 
