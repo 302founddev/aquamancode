@@ -1,6 +1,5 @@
 import './header.css';
-
-import { MdLightMode } from "react-icons/md";
+import { FaComputer } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 
@@ -25,7 +24,7 @@ export const Header = () => {
                     <li><Link to="/projectos">Proyectos</Link></li>
                     <li><a href="/#sobremi">Sobre mí</a></li>
                     <li><Link to="/contacto">Contacto</Link></li>
-                    <li><button className='light-dark'><MdLightMode /></button></li>
+                    <li className='light-dark'><FaComputer /></li>
                 </ul>
             </nav>
         </>

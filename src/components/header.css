@@ -7,11 +7,13 @@
     border-radius: 5px;
     width: 70%;
     backdrop-filter: blur(20px);
+    background: rgba(180, 180, 180, 0.4);
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+    margin-top: 8px;
 }
 
 .navbar ul {
@@ -45,14 +47,11 @@
 }
 
 .light-dark {
-    background: #764c04;
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 10px;
     cursor: pointer;
-    border-radius: 5px;
-    border-color: transparent;
+    font-size: 1.3rem;
 }
 
 .sticky {
