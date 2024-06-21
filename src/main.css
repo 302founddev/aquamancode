@@ -1,27 +1,25 @@
-* {
-  box-sizing: border-box;
-} 
-
 html {
-  max-width: 1280px; 
+  background: rgba(3, 5, 11, 1.0);
+  background: linear-gradient(0deg, rgba(3, 5, 11, 1.0), rgb(17, 17, 39));
   scroll-behavior: smooth;
-  min-height: 100vh;
   font-family: 'Onest Variable', sans-serif;
   color: white;
-  background: black;
+}
+
+main {
+  height: 100%;
 }
 
 body {
   margin: auto;
-  width: 70%;
+  width: 63%;
+  padding: 0 10px;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   }
 
   button {
@@ -32,6 +30,15 @@ body {
 @media (prefers-reduce-motion) {
   html {
     scroll-behavior: auto;
+  }
+}
+
+@media (max-width:480px) {
+  html {
+    color: #fff;
+  }
+  body {
+    width: 95%;
   }
 }
 

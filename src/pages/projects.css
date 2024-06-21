@@ -1,28 +1,46 @@
 :root {
     --rounded: 1em;
     --white: #fff;
-    --border: 1px solid gray;
     --tw-border-opacity: 1;
-    --hover-color: #2b2a33;
     --border-color: rgb(75 85 99 / var(--tw-border-opacity));
     --background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+
+.title h3 {
+    font-size: 1.8em;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #848487;
+}
+
+.project-icon {
+    font-size: 2em;
+}
+
 .section-cont {
-    padding-bottom: 80px;
+    padding-top: 7.8rem;
+    padding-bottom: 6rem;
 }
 
 article {
     display: flex;
     gap: 2.2rem;
-    padding-bottom: 70px;
+    padding-bottom: 4rem;
     box-sizing: border-box;
 }
 
 article > img {
-    min-width: 26rem;
+    max-width: 26rem;
     border-radius: var(--rounded);
     height: 240px;
+    border: 1px solid var(--border-color);
 }
 
 article > div {
@@ -32,19 +50,16 @@ article > div {
 
 article div h3 {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.5em;
     padding-bottom: .5rem;
+    font-weight: 600;
 }
 
 article div p {
     opacity: .6;
     text-wrap: pretty;
-    line-height: 1.5;
-    font-size: 1em;
-}
-
-.section-cont {
-    padding-top: 120px;
+    line-height: 1.4;
+    font-size: 1.05em;
 }
 
 .tag-container {
@@ -67,36 +82,37 @@ article div p {
 .p-links {
     color: var(--white);
     text-decoration: none;
-    border: var(--border);
     font-size: .95em;
     padding: 10px 13px;
-    border: 1px solid rgb(75 85 99 / 1);
+    border: 1px solid var(--border-color);
+    background: var(--background-color);
     border-radius: 12px;
     display: flex;
     gap: .5em;
     align-items: center;
-    background: var(--background-color);
 }
 
 .p-links:hover {
     transition: all .2s ease-in-out;
+    background: var(--background-color);
+    border-color: var(--background-color);
 }
 
-.title {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding-bottom: 15px;
-}
 
-.title h3 {
-    font-size: 1.8em;
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
-    text-decoration-color: #848487;
-}
 
-.project-icon {
-    font-size: 2em;
+@media (max-width: 480px) {
+    .section-cont {
+        width: 100%;
+        padding-top: 70px;
+    }
+    article {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1.8rem;
+    }
+    .title {
+        padding: 0;
+    }
+    
 }
-

@@ -31,10 +31,10 @@ export const Home = () => {
                 <div>
                     <h3 className='exp'>
                         Apasionado por la tecnología.
-                        <span className='ylw-900'>Desarrollador web & creador de contenido</span>, 
-                        <span className=''> Desde Madrid, Spain</span>.
-                        Me especializo en desarrollo Front-End,
-                        <span className='red-color'> Hacking Ético
+                        <span className='ylw-900'> Desarrollador web & creador de contenido</span>, 
+                        <span className=''> desde Madrid, Spain 🇪🇸</span>.
+                        Me especializo en desarrollo de software Front-End,
+                        <span className='red-color'> hacking ético
                         </span> & diseño web responsivo & desarrollo visual.
                     </h3>
                 </div>
@@ -48,18 +48,11 @@ export const Home = () => {
                         LinkedIn
                     </a>
 
-                    <a
-                        href={links.github} 
-                        target='_blank'
-                        rel="noopener">
-                        <FiGithub className='icon' />
-                        Github
-                    </a>
-
                     <a 
+                        href='mailto:jarscode.dev@outlook.com'
                         id='text-to-copy'>
                         <MdOutlineMarkEmailRead className='icon' />
-                        jarscode.dev@outlook.com
+                        Contáctame
                     </a>
                 </nav>
             </section>

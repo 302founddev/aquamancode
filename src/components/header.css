@@ -5,7 +5,7 @@
     right: 0;
     padding: 0 15px;
     border-radius: 5px;
-    width: 63%;
+    width: 70%;
     backdrop-filter: blur(20px);
     margin: auto;
     display: flex;
@@ -20,8 +20,9 @@
     gap: 2rem;
     padding: 10px 0;
     align-items: center;
-    opacity: .95;
     margin: 0;
+    font-size: .95em;
+    opacity: .8;
 }
 
 .navbar ul li a {
@@ -37,7 +38,6 @@
     margin: 0;
     color: #fff;
     text-decoration: none;
-    opacity: .95;
 }
 
 .navbar span h2 {
@@ -58,3 +58,32 @@
 .sticky {
     background: gray;
 }
+
+@media (max-width: 480px) {
+
+    .navbar {
+        position: fixed;
+        backdrop-filter: blur(10px);
+        border-radius: 555px;
+        width: 90%;
+        margin: auto;
+        height: 40px;
+        margin-top: 8px;
+
+    }
+
+    .navbar ul {
+        display: flex;
+        align-items: center;
+        font-size: .9em;
+        padding: 0;
+        gap: 1.5rem;
+    }
+
+    .navbar span{
+        visibility: hidden;
+        width: 0;
+
+    }
+}
+

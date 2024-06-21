@@ -28,3 +28,7 @@ label {
     flex-direction: column;
     padding-bottom: 10px;
 }
+
+@media (min-width: 480px) {
+    
+}

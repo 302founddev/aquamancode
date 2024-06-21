@@ -21,6 +21,7 @@ export const Header = () => {
                 </span>
 
                 <ul>
+                    <li><a href="/projectos">Inicio</a></li>
                     <li><Link to="/projectos">Proyectos</Link></li>
                     <li><a href="/#sobremi">Sobre mí</a></li>
                     <li><Link to="/contacto">Contacto</Link></li>
