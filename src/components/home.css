@@ -105,12 +105,11 @@
 
 @media (max-width: 480px) {
     .presentation {
-        padding-top: 100px;
+        padding-top: 8rem;
     }
     .b-title {
         display: flex;
-        flex-direction: column!important;
-        gap: 1rem;
+        flex-direction: column;
         padding-bottom: 20px;
     }
     .b-title h1 {

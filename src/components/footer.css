@@ -3,19 +3,33 @@
     padding-bottom: 2rem;
 }
 
-.footer div {
+div {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    opacity: .6;
+    opacity: .8;
+    flex-direction: row;
 }
 
-.footer > div a {
+.footer-span {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-link, div > span > a {
     text-decoration: none;
     color: #fff;
 }
 
-.footer-ul li {
-    list-style: none;
+.footer-link:hover, div > span > a:hover {
+    text-decoration: underline;
 }
 
+@media (max-width: 480px) {
+    .footer div {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+}

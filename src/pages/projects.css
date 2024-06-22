@@ -103,16 +103,14 @@ article div p {
 @media (max-width: 480px) {
     .section-cont {
         width: 100%;
-        padding-top: 70px;
+        padding-top: 5rem;
+        padding-bottom: 2rem;
     }
     article {
         display: flex;
         flex-direction: column;
         width: 100%;
         gap: 1.8rem;
-    }
-    .title {
-        padding: 0;
     }
     
 }

@@ -33,8 +33,8 @@ export const Home = () => {
                         Apasionado por la tecnología.
                         <span className='ylw-900'> Desarrollador web & creador de contenido</span>, 
                         <span className=''> desde Madrid, Spain 🇪🇸</span>.
-                        Me especializo en desarrollo de software Front-End,
-                        <span className='red-color'> hacking ético
+                        Me especializo en desarrollo de software Front-End, tengo amplios conocimientos de 
+                        <span className='red-color'> Hacking Ético
                         </span> & diseño web responsivo & desarrollo visual.
                     </h3>
                 </div>
@@ -47,6 +47,7 @@ export const Home = () => {
                         <CiLinkedin className='icon' />
                         LinkedIn
                     </a>
+
 
                     <a 
                         href='mailto:jarscode.dev@outlook.com'
