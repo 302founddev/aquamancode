@@ -3,7 +3,7 @@
     padding-bottom: 2rem;
 }
 
-div {
+.footer div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,7 +16,7 @@ div {
     gap: 1.5rem;
 }
 
-.footer-link, div > span > a {
+.footer-link, .footer > div > span > a {
     text-decoration: none;
     color: #fff;
 }

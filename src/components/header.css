@@ -69,8 +69,8 @@
         height: 40px;
         margin-top: 8px;
         background: rgba(180, 180, 180, 0.4);
-
-    }
+        padding: 0;
+    } 
 
     .navbar ul {
         display: flex;
