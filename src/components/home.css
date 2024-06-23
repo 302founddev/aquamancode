@@ -16,25 +16,26 @@
 
 .description-container {
     width: 66%;
+    padding-top: 20px;
 }
 
 .b-title {
     height: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: .2rem;
+    display: block;
+    flex-flow: column nowrap;
+    gap: 2.8rem;
     align-items: center;
     padding-bottom: 15px;
 }
 
 .b-title h1 {
-    font-size: 3.4em;
+    font-size: 4vw;
     line-height: 1rem;
     display: flex;
     align-items: center;
     margin: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
 }
 
 .description {
@@ -48,7 +49,6 @@
 
 .b-title span {
     width: 100%;
-    box-sizing: border-box;
 }
 
 .b-title span a {
@@ -105,24 +105,23 @@
     font-size: 1.1em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .presentation {
         padding-top: 8rem;
     }
     .b-title {
         display: flex;
         flex-direction: column;
+        gap: 1.8rem;
     }
     .b-title h1 {
         font-size: 2.5em;
         width: 100%;
-        order: 2;
     }
     .b-title a {
         font-size: .9em;
         padding: 5px 20px;
         background-color: transparent;
-        order: 1;
     }
     .bdg {
         width: 100%;
@@ -132,6 +131,7 @@
     }
     .description-container {
         width: 100%;
+        padding-top: 10px;
     }
     .description {
         width: 100%;

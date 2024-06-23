@@ -2,12 +2,15 @@ html {
   background: rgba(3, 5, 11, 1.0);
   background: linear-gradient(0deg, rgba(3, 5, 11, 1.0), rgb(17, 17, 39));
   scroll-behavior: smooth;
+  box-sizing: border-box;
   font-family: 'Onest Variable', sans-serif;
   color: white;
+  height: auto;
 }
 
 body {
   margin: 0 auto;
+  height: 100%;
   width: 65vw;
 }
 
@@ -28,7 +31,7 @@ body {
   }
 }
 
-@media (max-width:480px) {
+@media (max-width: 767px) {
   html {
     color: #fff;
   }

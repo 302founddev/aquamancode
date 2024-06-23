@@ -5,7 +5,7 @@ import { MdOutlineRoundaboutRight } from "react-icons/md";
 export const About = () => {
     return (
 
-        <section className='main'>
+        <section className='main' id='sobremi'>
 
             <div className='about'>
                 <MdOutlineRoundaboutRight className='about-icon' />

@@ -58,13 +58,13 @@
     background: gray;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
 
     .navbar {
         position: fixed;
         backdrop-filter: blur(10px);
         border-radius: 555px;
-        width: 90%;
+        width: 400px;
         margin: auto;
         height: 40px;
         margin-top: 5px;

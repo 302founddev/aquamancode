@@ -44,7 +44,7 @@ input[type=submit]:hover {
   margin: auto;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container {
     width: 95%;
     padding-top: 50px;

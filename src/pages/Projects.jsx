@@ -1,7 +1,6 @@
 import { Github, DeveloperStudentClub } from '../components/icons.jsx';
 import './projects.css';
 import { FaCode } from "react-icons/fa";
-import crypto from 'crypto'; // Importa el módulo crypto para usar randomUUID
 
 export const Work = () => {
 
@@ -34,7 +33,9 @@ export const Work = () => {
             </div>
             {PROJECTS.map((work, index) => (
                 <article key={`work-${index}`}>
-                    <img src={work.image} alt={`Captura de pantalla del proyecto ${work.title}`} />
+                    <div>
+                        <img src={work.image} alt={`Captura de pantalla del proyecto ${work.title}`} />
+                    </div>
                     <div>
                         <h3>{work.title}</h3>
                         <ul className="tag-container">
@@ -45,13 +46,11 @@ export const Work = () => {
 
                         <p>{work.description}</p>
 
-                        {/* Renderización condicional basada en `work.live` */}
                         {work.live ? (
                             <div className="links">
                                 <a className="p-links" href={work.github} target="_blank" rel="noopener noreferrer">
                                     <Github /> Source
                                 </a>
-                                {/* Ejemplo para el enlace de vista previa */}
                                 <a className="p-links" href={work.link} target="_blank" rel="noopener noreferrer">
                                     <DeveloperStudentClub /> Preview
                                 </a>
