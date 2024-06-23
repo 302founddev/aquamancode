@@ -1,6 +1,7 @@
 .footer {
     padding-top: 6rem;
     padding-bottom: 2rem;
+    box-sizing: border-box;
 }
 
 .footer div {
@@ -30,6 +31,9 @@
         display: flex;
         flex-direction: column;
         padding: 0;
+        gap: 1rem;
+    }
+    .footer-span {
         width: 100%;
     }
 }

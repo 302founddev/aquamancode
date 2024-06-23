@@ -49,24 +49,26 @@ export const Work = () => {
                         {work.live ? (
                             <div className="links">
                                 <a className="p-links" href={work.github} target="_blank" rel="noopener noreferrer">
-                                    <Github /> Fuente
+                                    <Github /> Source
                                 </a>
                                 {/* Ejemplo para el enlace de vista previa */}
                                 <a className="p-links" href={work.link} target="_blank" rel="noopener noreferrer">
-                                    <DeveloperStudentClub /> Vista Previa
+                                    <DeveloperStudentClub /> Preview
                                 </a>
                             </div>
                         ) : 
                         <div className="links">
                             <a className="p-links" href={work.github} target="_blank" rel="noopener noreferrer">
-                            <Github /> Fuente
+                            <Github /> Source
                             </a>
-                            {/* Ejemplo para el enlace de vista previa */}
                         </div>}
 
                     </div>
                 </article>
             ))}
+            <div className='vermas'>
+                <a href='/proyectos'>Saber más </a>
+            </div>
         </section>
     );
 };

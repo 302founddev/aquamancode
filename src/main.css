@@ -6,17 +6,13 @@ html {
   color: white;
 }
 
-main {
-  height: 100%;
-}
-
 body {
-  margin: auto;
-  width: 63%;
+  margin: 0 auto;
+  width: 65vw;
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
+  :root, html {
     color: #213547;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   }
@@ -38,6 +34,8 @@ body {
   }
   body {
     width: 90%;
+    box-sizing: border-box;
   }
 }
+
 

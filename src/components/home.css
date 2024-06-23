@@ -2,14 +2,11 @@
     margin: auto;
     --white-color: #fff;
     --red-color: #fd7b7e;
-    --border: 2px solid white;
     --bordered: 1px solid rgb(155, 155, 155);
     --tw-text-opacity: 1;
-    --tw-bg-opacity: 1;
-    --tw-border-opacity: 1;
-    --yl-900: rgb(254 240 138 / var(--tw-text-opacity));
-    --border-color: rgb(75 85 99 / var(--tw-border-opacity));
-    --background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    --ylw: rgb(234 179 8 / var(--tw-text-opacity));
+    --border-color: rgb(75 85 99 / var(--tw-text-opacity));
+    --background-color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .presentation {
@@ -17,57 +14,62 @@
     box-sizing: border-box;
 }
 
+.description-container {
+    width: 66%;
+}
+
 .b-title {
     height: 100px;
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
+    flex-direction: column;
+    gap: .2rem;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .b-title h1 {
     font-size: 3.4em;
-    font-weight: 700;
     line-height: 1rem;
     display: flex;
     align-items: center;
     margin: 0;
     height: 100%;
+    width: 100%;
 }
 
-.exp {
+.description {
     font-size: 1.3em;
     line-height: 1.5rem;
     font-weight: 400;
     opacity: 0.9;
-    width: 40rem;
     margin: 0;
+    width: 100%;
 }
 
-.bdg {
-    color: var(--white-color);
-    display: flex;
-    font-size: .8em;
+.b-title span {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.b-title span a {
+    color: #fff;
+    padding: 3px 15px;
+    border: var(--bordered);
+    border-radius: 5555px;
     text-decoration: none;
-    align-items: center;
-    height: 20%;
-    background: #3278c6;
-    border: 1px solid var(--border-color);
-    border-radius: 5rem;
-    text-align: center;
-    padding: 2px 15px;
-    opacity: .9;
+    overflow: hidden;
+    background-color: #3278c6;
+    font-size: .9em;
 }
 
-.bdg:hover {
-    transform: scale(1.1);
-    transition: all 300ms ease;
+.b-title span a:hover {
+    text-decoration: none;
+    transition: all .1s 2;
 }
 
 .ylw-900 {
     --tw-text-opacity: 1;
-    color: var(--yl-900);
+    color: var(--ylw);
     font-weight: 600;
 }
 
@@ -110,7 +112,6 @@
     .b-title {
         display: flex;
         flex-direction: column;
-        padding-bottom: 20px;
     }
     .b-title h1 {
         font-size: 2.5em;
@@ -118,15 +119,21 @@
         order: 2;
     }
     .b-title a {
-        font-size: 1em;
+        font-size: .9em;
         padding: 5px 20px;
         background-color: transparent;
         order: 1;
     }
+    .bdg {
+        width: 100%;
+    }
     .b-title a:hover {
         background-color: #3278c6;
     }
-    .exp {
+    .description-container {
+        width: 100%;
+    }
+    .description {
         width: 100%;
     }
 }

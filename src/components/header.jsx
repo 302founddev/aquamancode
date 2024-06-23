@@ -21,7 +21,7 @@ export const Header = () => {
 
                 <ul>
                     <li><a href="/">Inicio</a></li>
-                    <li><Link to="/projectos">Proyectos</Link></li>
+                    <li><Link to="/proyectos">Proyectos</Link></li>
                     <li><a href="/#sobremi">Sobre mí</a></li>
                     <li><Link to="/contacto">Contacto</Link></li>
                     <li className='light-dark'><FaComputer /></li>
