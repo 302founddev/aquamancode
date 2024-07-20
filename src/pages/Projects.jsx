@@ -6,28 +6,26 @@ export const Work = () => {
 
     const PROJECTS = [
         {
-            title: "Suntraveltour - Una pre-landing page de una agencia de viajes",
+            title: "Sol Traveltour - Una pre-landing page de una agencia de viajes.",
             description: "Agencia como puerta de entrada a aventuras globales inolvidables, ofreciendo experiencias personalizadas que transforman cada viaje en una experiencia única.",
-            link: "https://www.soltraveltour.es",
+            link: "https://www.soltraveltour.vercel.app",
             github: "https://github.com/jarscodedev/suntraveltour.git",
             image: "../../public/projects/suntraveltour.webp",
-            tags: ['Javascript', 'Css'],
             live: true
         },
         {
-            title: "FETCHRICKMORTY - Consume una API y muestra los datos",
-            description: "Biblioteca de logos SVG de las marcas más populares. Más de 10k visitas al mes y más de 2K SVGs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-            link: "#",
-            github: "https://github.com/jarscodedev/fetchapi_rickandmorty.git",
+            title: "fetchrickandmorty - Consume una api y muestra sus datos.",
+            description: "Web diseñada para consumir una API con los personajes de Rick and Morty, de uso practico donde se muestran diferentes tipos de datos sobre los personajesl.",
+            link: "https://fetchrickandmorty.vercel.app",
+            github: "https://github.com/jarscodedev/fetchrickandmorty.git",
             image: "../../public/projects/fetchrick.webp",
-            tags: ['React.js', 'Css'],
-            live: false
+            live: true
         }
     ];
 
     return (
-        <section className='section-cont'>
-            <div className='title'>
+        <section className='section'>
+            <div className='title' id='proyectos'>
                 <FaCode className='project-icon' />
                 <h3>Proyectos</h3>
             </div>
@@ -38,11 +36,6 @@ export const Work = () => {
                     </div>
                     <div>
                         <h3>{work.title}</h3>
-                        <ul className="tag-container">
-                            {work.tags.map((tag, index) => (
-                                <li key={`tag-${index}`}>{tag}</li>
-                            ))}
-                        </ul>
 
                         <p>{work.description}</p>
 
@@ -58,16 +51,16 @@ export const Work = () => {
                         ) : 
                         <div className="links">
                             <a className="p-links" href={work.github} target="_blank" rel="noopener noreferrer">
-                            <Github /> Source
+                                <Github /> Source
+                            </a>
+                            <a className="p-links" href={work.link} target="_blank" rel="noopener noreferrer">
+                                <DeveloperStudentClub /> Preview
                             </a>
                         </div>}
 
                     </div>
                 </article>
             ))}
-            <div className='vermas'>
-                <a href='/proyectos'>Saber más </a>
-            </div>
         </section>
     );
 };

@@ -4,27 +4,37 @@
     left: 0;
     right: 0;
     padding: 0 15px;
-    border-radius: 5px;
-    width: 70%;
+    /* border-radius: 5px; */
+    width: 381px;
     backdrop-filter: blur(20px);
-    background: rgba(180, 180, 180, 0.1);
+    /* background: transparent; */
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1;
     margin-top: 8px;
+    border-radius: 9999px;
+    gap: -2rem;
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 200px;
+}
+
+@keyframes enhance-header {
+    to {
+        background: rgb(139, 140, 151, 0.6);
+    }
 }
 
 .navbar ul {
     display: flex;
     list-style: none;
     gap: 2rem;
-    padding: 10px 0;
     align-items: center;
     margin: 0;
     font-size: .95em;
-    opacity: .8;
+    padding: 10px 0;
 }
 
 .navbar ul li a {
@@ -56,6 +66,15 @@
 
 .sticky {
     background: gray;
+}
+
+#modes {
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 @media (max-width: 767px) {

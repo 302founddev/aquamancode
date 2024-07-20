@@ -4,12 +4,14 @@ import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { Work } from '../pages/Projects';
 import { About } from './about';
+import { Experiencia } from './experience';
 
 
 export const Home = () => {
     const links = {
         linkedin: "https://linkedin.com/in/jarscodedev",
-        github: "https://github.com/jarscodedev"
+        github: "https://github.com/jarscodedev",
+        mail: "mailto:jarscode.dev@outlook.com"
     }
 
     return (
@@ -51,19 +53,16 @@ export const Home = () => {
 
 
                     <a 
-                        href='mailto:jarscode.dev@outlook.com'
-                        id='text-to-copy'>
+                        href={links.mail}>
                         <MdOutlineMarkEmailRead className='icon' />
                         Contáctame
                     </a>
                 </nav>
-            </section>
 
-            <section>
+                <Experiencia />
+ 
                 <Work />
-            </section>
-
-            <section>
+                
                 <About />
             </section>
 

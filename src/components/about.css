@@ -3,12 +3,14 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 0 auto;
+    padding-top: 3rem;
 }
 
 .content-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: 'Grandstander Variable', system-ui!important;
     gap: .8rem;
     padding-bottom: 2rem;
     line-height: 1.6;
@@ -49,10 +51,6 @@
     .content-1 {
         width: 100%;
         font-size: 1.05;
-        font-family: 'Grandstander Variable', system-ui!important;
-    }
-    .main {
-        padding-top: 20px;
     }
 }
 

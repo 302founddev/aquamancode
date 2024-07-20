@@ -10,8 +10,9 @@ html {
 
 body {
   margin: 0 auto;
-  height: 100%;
-  width: 65vw;
+  background: rgba(3, 5, 11, 1.0);
+  background: linear-gradient(0deg, rgba(3, 5, 11, 1.0), rgb(17, 17, 39));
+  width: 70vw;
 }
 
 @media (prefers-color-scheme: light) {

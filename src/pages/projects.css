@@ -9,9 +9,8 @@
     --ylw: rgb(254 240 138 / var(--tw-text-opacity));
 }
 
-.section-cont {
-    padding-top: 7.8rem;
-    padding-bottom: 6rem;
+.section {
+    padding-top: 3rem;
 }
 
 .title {
@@ -22,9 +21,6 @@
 
 .title h3 {
     font-size: 1.8em;
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-decoration-color: #848487;
 }
 
 .project-icon {
@@ -33,6 +29,7 @@
 
 article {
     display: flex;
+    align-items: center;
     gap: 1.8rem;
     padding-bottom: 4rem;
     box-sizing: border-box;
@@ -51,7 +48,7 @@ article > div {
 
 article div h3 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding-bottom: .5rem;
     font-weight: 600;
 }
@@ -70,7 +67,8 @@ article div p {
 }
 
 .tag-container li {
-    opacity: .95;
+    scale: 1.3;
+    padding-top: 5px;
 }
 
 .links {
@@ -97,30 +95,12 @@ article div p {
     border-color: var(--background-color);
 }
 
-.vermas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.vermas a {
-    text-decoration: none;
-    color: var(--ylw);
-    font-size: 1.2em;
-}
-
-.vermas a:hover {
-    color: var(--ylw-hover);
-    text-decoration: underline;
-}
-
 @media (max-width: 767px) {
-    .section-cont {
+    .section {
         width: 100%;
         padding-top: 5rem;
-        padding-bottom: 2rem;
     }
-    .section-cont {
+    .section {
         position: static;
     }
     article {
