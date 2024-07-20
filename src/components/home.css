@@ -50,16 +50,17 @@
 .b-title span a {
     color: #fff;
     padding: 3px 15px;
-    border: var(--bordered);
     border-radius: 5555px;
     text-decoration: none;
-    background-color: #3278c6;
-    font-size: .9em;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: .85em;
+    transition: all .3s ease-in-out;
 }
 
 .b-title span a:hover {
     text-decoration: none;
-    transition: all .1s 2;
+    background-color: #3278c6;
 }
 
 .ylw-900 {
@@ -97,24 +98,6 @@
     font-size: 1.1em;
 }
 
-.vermas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 1rem;
-}
-
-.vermas a {
-    text-decoration: none;
-    color: var(--ylw);
-    font-size: 1.2em;
-}
-
-.vermas a:hover {
-    color: var(--ylw-hover);
-    text-decoration: underline;
-}
-
 @media (max-width: 767px) {
     .presentation {
         padding-top: 8rem;
@@ -135,9 +118,6 @@
         font-size: .9em;
         padding: 5px 20px;
         background-color: transparent;
-    }
-    .bdg {
-        width: 100%;
     }
     .b-title a:hover {
         background-color: #3278c6;

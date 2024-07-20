@@ -1,6 +1,5 @@
 import { Header } from './components/header';
 import { Home } from './components/home'
-import { Contact } from './pages/ContactForm';
 import { Error404 } from './pages/NotFound';
 import { Work } from './pages/Projects';
 import { Footer } from './components/footer';
@@ -17,7 +16,6 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/inicio' element={<Home />} />
-        <Route path='/contacto' element={<Contact />} />
         <Route path='/proyectos' element={<Work />} />
         <Route path='*' element={<Error404 />} />
       </Routes>
