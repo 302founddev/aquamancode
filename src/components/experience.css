@@ -24,7 +24,7 @@ body {
 
 .timeline {
     position: relative;
-    border-left: 2px solid #e5e7eb;
+    border-left: 2px solid rgb(234 179 8);
     list-style-type: none;
     padding-left: 20px;
 }
