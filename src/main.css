@@ -8,6 +8,12 @@ html {
   height: auto;
 }
 
+  :root,
+  html,
+  body {
+    color-scheme: light dark;
+  }
+
 body {
   margin: 0 auto;
   background: rgba(3, 5, 11, 1.0);
@@ -15,22 +21,7 @@ body {
   width: 70vw;
 }
 
-@media (prefers-color-scheme: light) {
-  :root, html {
-    color: #213547;
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  }
 
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-@media (prefers-reduce-motion) {
-  html {
-    scroll-behavior: auto;
-  }
-}
 
 @media (max-width: 767px) {
   html {

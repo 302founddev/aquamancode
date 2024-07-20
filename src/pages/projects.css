@@ -98,7 +98,7 @@ article div p {
 @media (max-width: 767px) {
     .section {
         width: 100%;
-        padding-top: 5rem;
+        padding-top: 100px;
     }
     .section {
         position: static;
