@@ -1,9 +1,18 @@
+
+
 .error {
     padding-top: 15rem;
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .error h2 {
     margin: auto;
+}
+
+.error img {
+    width: 60%;
+    height: 60%;
+    color: #fff;
 }

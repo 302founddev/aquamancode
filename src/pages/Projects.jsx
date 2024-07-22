@@ -1,6 +1,7 @@
-import { Github, DeveloperStudentClub } from '../components/icons.jsx';
 import './projects.css';
+import { Github, DeveloperStudentClub } from '../components/icons.jsx';
 import { FaCode } from "react-icons/fa";
+
 
 export const Work = () => {
 
@@ -9,8 +10,8 @@ export const Work = () => {
             title: "Sol Traveltour - Una pre-landing page de una agencia de viajes.",
             description: "Agencia como puerta de entrada a aventuras globales inolvidables, ofreciendo experiencias personalizadas que transforman cada viaje en una experiencia única.",
             link: "https://www.soltraveltour.vercel.app",
-            github: "https://github.com/jarscodedev/suntraveltour.git",
-            image: "../../public/suntraveltour.webp",
+            github: "https://github.com/jarscodedev/soltraveltour.git",
+            image: "./src/components/images/suntraveltour.svg",
             live: true
         },
         {
@@ -18,7 +19,7 @@ export const Work = () => {
             description: "Web diseñada para consumir una API con los personajes de Rick and Morty, de uso practico donde se muestran diferentes tipos de datos sobre los personajesl.",
             link: "https://fetchrickandmorty.vercel.app",
             github: "https://github.com/jarscodedev/fetchrickandmorty.git",
-            image: "../../public/fetchrick.webp",
+            image: "./src/components/images/fetchrick.svg",
             live: true
         }
     ];
