@@ -11,7 +11,7 @@ export const Work = () => {
             description: "Agencia como puerta de entrada a aventuras globales inolvidables, ofreciendo experiencias personalizadas que transforman cada viaje en una experiencia única.",
             link: "https://www.soltraveltour.vercel.app",
             github: "https://github.com/jarscodedev/soltraveltour.git",
-            image: "/src/components/images/suntraveltour.svg",
+            image: "/public/suntraveltour.svg",
             live: true
         },
         {
@@ -19,7 +19,7 @@ export const Work = () => {
             description: "Web diseñada para consumir una API con los personajes de Rick and Morty, de uso practico donde se muestran diferentes tipos de datos sobre los personajesl.",
             link: "https://fetchrickandmorty.vercel.app",
             github: "https://github.com/jarscodedev/fetchrickandmorty.git",
-            image: "/src/components/images/fetchrick.svg",
+            image: "/public/fetchrick.svg",
             live: true
         }
     ];
