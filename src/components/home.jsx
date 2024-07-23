@@ -1,5 +1,4 @@
 import './home.css';
-import Badge from 'react-bootstrap/Badge';
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { Work } from '../pages/Projects';
@@ -7,7 +6,7 @@ import { About } from './about';
 import { Experiencia } from './experience';
 
 
-export const Home = () => {
+export const Home = (props) => {
     const links = {
         linkedin: "https://linkedin.com/in/jarscodedev",
         github: "https://github.com/jarscodedev",
@@ -25,7 +24,7 @@ export const Home = () => {
                             target='_blank' 
                             rel='noopener'>
                                 
-                            <Badge> Disponible para trabajar</Badge>
+                            <span> Disponible para trabajar </span>
                         </a>
                     </span>
                     <h1>Hey, soy jarsdev</h1> 

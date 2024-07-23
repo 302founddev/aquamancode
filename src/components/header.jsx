@@ -3,6 +3,8 @@ import './header.css';
 
 export const Header = () => {
 
+    const mailto = "mailto:jarscode.dev@outlook.com"
+
     return (
         <>
             <nav className='navbar'>
@@ -10,7 +12,7 @@ export const Header = () => {
                     <li><a href="/#experiencia">Experiencia</a></li>
                     <li><a href="/#proyectos">Proyectos</a></li>
                     <li><a href="/#sobremi">Sobre mí</a></li>
-                    <li><a href="mailto:jarscode.dev@outlook.com">Contacto</a></li>
+                    <li><a href={mailto}>Contacto</a></li>
                 </ul>
             </nav>
         </>
