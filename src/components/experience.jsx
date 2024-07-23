@@ -8,7 +8,7 @@ export function Experiencia() {
         <section id='experiencia'>
             <div className='insideExperiencia'>
                 <MdOutlineWork />
-                <h2>Experiencia</h2>
+                <h2>Experiencia laboral</h2>
             </div>
             <ol className="timeline">
                 <li className="timeline-item">
