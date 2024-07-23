@@ -11,7 +11,7 @@ export const Work = () => {
             description: "Agencia como puerta de entrada a aventuras globales inolvidables, ofreciendo experiencias personalizadas que transforman cada viaje en una experiencia única.",
             link: "https://www.soltraveltour.vercel.app",
             github: "https://github.com/jarscodedev/soltraveltour.git",
-            image: "/suntraveltour.svg",
+            image: "/suntraveltour.webp",
             live: true
         },
         {
