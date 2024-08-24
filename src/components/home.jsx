@@ -27,7 +27,7 @@ export const Home = (props) => {
                             <span> Disponible para trabajar </span>
                         </a>
                     </span>
-                    <h1>Hey, soy aquamancode</h1> 
+                    <h1>Hey, soy Juan Alberto</h1> 
                 </div>
 
                 <div className='description-container'>
