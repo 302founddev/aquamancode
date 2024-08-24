@@ -8,8 +8,8 @@ import { Experiencia } from './experience';
 
 export const Home = (props) => {
     const links = {
-        linkedin: "https://linkedin.com/in/jarscodedev",
-        github: "https://github.com/jarscodedev",
+        linkedin: "https://linkedin.com/in/aquamancode",
+        github: "https://github.com/aquamancode",
         mail: "mailto:jarscode.dev@outlook.com"
     }
 
@@ -27,7 +27,7 @@ export const Home = (props) => {
                             <span> Disponible para trabajar </span>
                         </a>
                     </span>
-                    <h1>Hey, soy aquamencode</h1> 
+                    <h1>Hey, soy aquamancode</h1> 
                 </div>
 
                 <div className='description-container'>
