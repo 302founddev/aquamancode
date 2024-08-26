@@ -16,7 +16,7 @@ export const Work = () => {
     },
     {
       title: "Aquamancode web portfolio - Portfolio personal construido en react.",
-      description: "Esta es mi carta de presentación para que me conozcan y conozcan el trabajo que estoy realizando.",
+      description: "Esta es mi carta de presentación para que me conozcan y conozcan el trabajo que estoy realizando. Mejoras en camino...",
       link: "https://aquamancode.vercel.app",
       github: "https://github.com/aquamancode/aquamancode.git",
       image: "/aquamancode.webp",
