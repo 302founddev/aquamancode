@@ -1,107 +1,102 @@
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 0 15px;
-    width: 366px;
-    backdrop-filter: blur(20px);
-    /* background: transparent; */
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1;
-    margin-top: 8px;
-    border-radius: 9999px;
-    gap: -2rem;
-    animation: enhance-header linear both;
-    animation-timeline: scroll(root);
-    animation-range: 0 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 15px;
+  width: 366px;
+  backdrop-filter: blur(20px);
+  margin: auto;
+  display: flex;
+  margin-top: 8px;
+  border-radius: 9px;
+  animation: enhance-header linear both;
+  animation-timeline: scroll(root);
+  animation-range: 0 200px;
 }
 
 @keyframes enhance-header {
-    to {
-        background: rgb(139, 140, 151, 0.6);
-    }
+  to {
+    background: rgba(156, 156, 156, 0.4);
+  }
 }
 
 .navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    align-items: center;
-    margin: 0;
-    font-size: .95em;
-    padding: 10px 0;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+  font-size: .95em;
+  padding: 10px 0;
 }
 
 .navbar ul li a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar ul li:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.navbar span a, .navbar span h2 {
-    margin: 0;
-    color: #fff;
-    text-decoration: none;
+.navbar span a,
+.navbar span h2 {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
 }
 
 .navbar span h2 {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 .light-dark {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    font-size: 1.3rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.3rem;
 }
 
 .sticky {
-    background: gray;
+  background: gray;
 }
 
 #modes {
-    border-radius: 4px;
-    box-sizing: border-box;
-    background: transparent;
-    color: white;
-    margin: 0;
-    padding: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 767px) {
 
-    .navbar {
-        position: fixed;
-        backdrop-filter: blur(10px);
-        border-radius: 555px;
-        width: 400px;
-        margin: auto;
-        height: 40px;
-        margin-top: 5px;
-        background: rgba(180, 180, 180, 0.5);
-        padding: 0;
-    } 
+  .navbar {
+    position: fixed;
+    backdrop-filter: blur(10px);
+    border-radius: 555px;
+    width: 400px;
+    margin: auto;
+    height: 40px;
+    margin-top: 5px;
+    background: rgba(180, 180, 180, 0.5);
+    padding: 0;
+  }
 
-    .navbar ul {
-        display: flex;
-        align-items: center;
-        font-size: .9em;
-        gap: 1.5rem;
-        margin: auto;
-    }
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+    gap: 1.5rem;
+    margin: auto;
+  }
 
-    .navbar span{
-        visibility: hidden;
-        width: 0;
+  .navbar span {
+    visibility: hidden;
+    width: 0;
 
-    }
+  }
 }
-
