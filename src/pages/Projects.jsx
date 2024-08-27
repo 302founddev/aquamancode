@@ -7,7 +7,7 @@ export const Work = () => {
 
   const PROJECTS = [
     {
-      title: "Sol Traveltour - Una pre-landing page de una agencia de viajes.",
+      title: "Sol Traveltour - Web de reservas para una agencia de viajes.",
       description: "Agencia como puerta de entrada a aventuras globales inolvidables, ofreciendo experiencias personalizadas que transforman cada viaje en una experiencia única.",
       link: "https://soltraveltour-agency.vercel.app",
       github: "https://github.com/aquamancode/soltraveltour-agency.git",
