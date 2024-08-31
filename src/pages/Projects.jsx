@@ -10,7 +10,7 @@ export const Work = () => {
       title: "Sol Traveltour - Web de reservas para una agencia de viajes.",
       description: "Agencia como puerta de entrada a aventuras globales inolvidables, ofreciendo experiencias personalizadas que transforman cada viaje en una experiencia única.",
       link: "https://soltraveltour-agency.vercel.app",
-      github: "https://github.com/aquamancode/soltraveltour-agency.git",
+      github: "https://github.com/4quacode/soltraveltour-agency.git",
       image: "/soltraveltour-agency.webp",
       live: true
     },
@@ -18,7 +18,7 @@ export const Work = () => {
       title: "Aquamancode web portfolio - Portfolio personal construido en react.",
       description: "Esta es mi carta de presentación para que me conozcan y conozcan el trabajo que estoy realizando. Mejoras en camino...",
       link: "https://aquamancode.vercel.app",
-      github: "https://github.com/aquamancode/aquamancode.git",
+      github: "https://github.com/4quacode/4quacode-homepage.git",
       image: "/aquamancode.webp",
       live: true
     },
@@ -26,7 +26,7 @@ export const Work = () => {
       title: "fetchrickandmorty - Consume una api y muestra sus datos.",
       description: "Web diseñada para consumir una API con los personajes de Rick and Morty, de uso practico donde se muestran diferentes tipos de datos sobre los personajesl.",
       link: "https://fetchrickandmorty.vercel.app",
-      github: "https://github.com/aquamancode/fetchrickandmorty.git",
+      github: "https://github.com/4quacode/fetchrickandmorty.git",
       image: "/fetchrick.svg",
       live: true
     }
