@@ -8,8 +8,8 @@ import { Experiencia } from './experience';
 
 export const Home = (props) => {
     const links = {
-        linkedin: "https://linkedin.com/in/aquamancode",
-        github: "https://github.com/aquamancode",
+        linkedin: "https://linkedin.com/in/4quacode",
+        github: "https://github.com/4quacode",
         mail: "mailto:jarscode.dev@outlook.com"
     }
 
