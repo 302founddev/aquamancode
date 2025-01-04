@@ -37,6 +37,7 @@ article {
 
 article>div>img {
   width: 24rem;
+  height: fit-content;
   border-radius: var(--rounded);
   border: 1px solid var(--border-color);
 }
