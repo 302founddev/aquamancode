@@ -20,11 +20,10 @@
 
 .b-title {
   height: 100px;
-  display: block;
-  flex-flow: column nowrap;
   gap: 2.8rem;
   align-items: center;
   padding-bottom: 15px;
+  margin-top: 80px;
 }
 
 .b-title h1 {
@@ -44,22 +43,6 @@
   opacity: 0.9;
   margin: 0;
   width: 100%;
-}
-
-.b-title span a {
-  color: #fff;
-  padding: 3px 15px;
-  border-radius: 5555px;
-  text-decoration: none;
-  background-color: transparent;
-  border: 1px solid white;
-  font-size: .85em;
-  transition: all .3s ease-in-out;
-}
-
-.b-title span a:hover {
-  text-decoration: none;
-  background-color: #3278c6;
 }
 
 .ylw-900 {

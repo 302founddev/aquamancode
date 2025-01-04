@@ -6,7 +6,7 @@ import { About } from './about';
 import { Experiencia } from './experience';
 
 
-export const Home = (props) => {
+export const Home = () => {
     const links = {
         linkedin: "https://linkedin.com/in/4quacode",
         github: "https://github.com/4quacode",
@@ -17,17 +17,7 @@ export const Home = (props) => {
         <main>
             <section className='presentation'>
                 <div className='b-title'>
-                    <span>
-                        <a
-                            href={links.linkedin} 
-                            className='bdg' 
-                            target='_blank' 
-                            rel='noopener'>
-                                
-                            <span> Disponible para trabajar </span>
-                        </a>
-                    </span>
-                    <h1>Hey, soy Juan Alberto</h1> 
+                    <h1>Hey, soy Juan Alberto</h1>
                 </div>
 
                 <div className='description-container'>
@@ -35,15 +25,15 @@ export const Home = (props) => {
                         Apasionado por la tecnología &
                         <span className='ylw-900'> desarrollador web </span>
                         <span> desde Madrid, España 🇪🇸</span>.
-                        Me especializo en desarrollo de software Front-End, tengo amplios conocimientos de 
+                        Me especializo en desarrollo de software Front-End, tengo amplios conocimientos de
                         <span className='red-color'> Hacking Ético, </span>
-                          diseño web responsivo & desarrollo visual.
+                        diseño web responsivo & desarrollo visual.
                     </span>
                 </div>
 
                 <nav className='icons'>
-                    <a 
-                        href={links.linkedin} 
+                    <a
+                        href={links.linkedin}
                         target='_blank'
                         rel='noopener noreferer'>
                         <CiLinkedin className='icon' />
@@ -51,7 +41,7 @@ export const Home = (props) => {
                     </a>
 
 
-                    <a 
+                    <a
                         href={links.mail}>
                         <MdOutlineMarkEmailRead className='icon' />
                         Contáctame
@@ -59,9 +49,9 @@ export const Home = (props) => {
                 </nav>
 
                 <Experiencia />
- 
+
                 <Work />
-                
+
                 <About />
             </section>
 
